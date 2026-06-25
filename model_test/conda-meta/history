@@ -1,0 +1,176 @@
+==> 2026-06-22 11:46:18 <==
+# cmd: C:\Users\KOSMO\miniconda3\Scripts\conda-script.py create -p ./model_test python=3.12
+# conda version: 26.3.2
++defaults/noarch::pip-26.1.1-pyhc872135_1
++defaults/noarch::tzdata-2026b-he532380_0
++defaults/win-64::bzip2-1.0.8-h2bbff1b_6
++defaults/win-64::ca-certificates-2026.5.14-haa95532_0
++defaults/win-64::libexpat-2.8.1-hd7fb8db_1
++defaults/win-64::libffi-3.4.8-h42d73b9_3
++defaults/win-64::libzlib-1.3.2-h1c6eee0_0
++defaults/win-64::openssl-3.5.7-hbb43b14_0
++defaults/win-64::packaging-26.0-py312haa95532_0
++defaults/win-64::python-3.12.13-h63b1a2d_1
++defaults/win-64::setuptools-82.0.1-py312haa95532_0
++defaults/win-64::sqlite-3.53.2-hee5a0db_0
++defaults/win-64::tk-8.6.15-hf199647_0
++defaults/win-64::ucrt-10.0.22621.0-haa95532_0
++defaults/win-64::vc-14.3-h2df5915_12
++defaults/win-64::vc14_runtime-14.44.35208-h4927774_12
++defaults/win-64::vs2015_runtime-14.44.35208-ha6b5a95_12
++defaults/win-64::wheel-0.47.0-py312haa95532_0
++defaults/win-64::xz-5.8.2-h53af0af_0
++defaults/win-64::zlib-1.3.2-h1c6eee0_0
+# update specs: ['python=3.12']
+==> 2026-06-22 12:17:12 <==
+# cmd: C:\Users\KOSMO\miniconda3\Scripts\conda-script.py install joblib
+# conda version: 26.3.2
++defaults/win-64::joblib-1.5.3-py312haa95532_0
+# update specs: ['joblib']
+==> 2026-06-22 12:22:29 <==
+# cmd: C:\Users\KOSMO\miniconda3\Scripts\conda-script.py install tensorflow
+# conda version: 26.3.2
++defaults/noarch::astunparse-1.6.3-py_0
++defaults/noarch::gast-0.7.0-pyhd3eb1b0_0
++defaults/noarch::google-pasta-0.2.0-pyhd3eb1b0_0
++defaults/win-64::absl-py-2.3.1-py312haa95532_0
++defaults/win-64::blas-1.0-mkl
++defaults/win-64::brotlicffi-1.2.0.0-py312h885b0b7_0
++defaults/win-64::c-ares-1.34.6-h2c209ce_0
++defaults/win-64::certifi-2026.5.20-py312haa95532_0
++defaults/win-64::cffi-2.0.0-py312h02ab6af_1
++defaults/win-64::charset-normalizer-3.4.4-py312haa95532_0
++defaults/win-64::flatbuffers-25.9.23-h4412200_0
++defaults/win-64::giflib-5.2.2-h7edc060_0
++defaults/win-64::grpcio-1.78.0-py312ha1f0e13_0
++defaults/win-64::h5py-3.14.0-py312h6fc9867_0
++defaults/win-64::hdf5-1.14.5-ha36df97_2
++defaults/win-64::icc_rt-2022.1.0-h6049295_2
++defaults/win-64::icu-78.3-h99bb849_0
++defaults/win-64::idna-3.18-py312haa95532_0
++defaults/win-64::intel-openmp-2025.0.0-haa95532_1165
++defaults/win-64::jpeg-9f-ha349fce_0
++defaults/win-64::keras-3.14.0-py312h2523e2c_0
++defaults/win-64::libabseil-20260107.0-cxx17_hc587421_0
++defaults/win-64::libbrotlicommon-1.2.0-h907acca_0
++defaults/win-64::libbrotlidec-1.2.0-h02c67a5_0
++defaults/win-64::libbrotlienc-1.2.0-h483e6b9_0
++defaults/win-64::libcurl-8.20.0-h9440e04_1
++defaults/win-64::libgrpc-1.78.0-hecd3d80_0
++defaults/win-64::libhwloc-2.12.1-default_hfa10c62_1000
++defaults/win-64::libiconv-1.18-hc89ec93_0
++defaults/win-64::libkrb5-1.22.2-h3d06f0e_0
++defaults/win-64::libpng-1.6.56-h2854ad3_0
++defaults/win-64::libprotobuf-6.33.5-h65d7223_0
++defaults/win-64::libre2-11-2025.11.05-h797e85b_1
++defaults/win-64::libssh2-1.11.1-h2addb87_0
++defaults/win-64::libxml2-2.13.9-h6201b9f_0
++defaults/win-64::lz4-c-1.9.4-h2bbff1b_1
++defaults/win-64::m2w64-gcc-libgfortran-5.3.0-6
++defaults/win-64::m2w64-gcc-libs-5.3.0-7
++defaults/win-64::m2w64-gcc-libs-core-5.3.0-7
++defaults/win-64::m2w64-gmp-6.1.0-2
++defaults/win-64::m2w64-libwinpthread-git-5.0.0.4634.697f757-2
++defaults/win-64::markdown-it-py-4.0.0-py312haa95532_2
++defaults/win-64::mdurl-0.1.2-py312haa95532_0
++defaults/win-64::mkl-2025.0.0-h585ebfc_931
++defaults/win-64::mkl-service-2.5.2-py312h0b37514_0
++defaults/win-64::mkl_fft-2.2.0-py312h18b77b3_0
++defaults/win-64::mkl_random-1.3.0-py312ha5e6156_0
++defaults/win-64::ml_dtypes-0.5.4-py312h42c1672_0
++defaults/win-64::mpi-1.0-msmpi
++defaults/win-64::mpi4py-4.0.3-py312h02ab6af_1
++defaults/win-64::msmpi-10.1.1-had4844c_0
++defaults/win-64::msys2-conda-epoch-20160418-1
++defaults/win-64::namex-0.1.0-py312haa95532_0
++defaults/win-64::numpy-2.4.6-py312h9606935_0
++defaults/win-64::numpy-base-2.4.6-py312h89dd80d_0
++defaults/win-64::opt_einsum-3.4.0-py312haa95532_0
++defaults/win-64::optree-0.18.0-py312h03f52e7_0
++defaults/win-64::protobuf-6.33.5-py312h854c0a0_0
++defaults/win-64::pycparser-3.0-py312haa95532_0
++defaults/win-64::pygments-2.20.0-py312haa95532_0
++defaults/win-64::pysocks-1.7.1-py312haa95532_1
++defaults/win-64::python-flatbuffers-25.9.23-py312h54deb1d_0
++defaults/win-64::re2-2025.11.05-hca2749c_1
++defaults/win-64::requests-2.34.2-py312haa95532_0
++defaults/win-64::rich-15.0.0-py312haa95532_0
++defaults/win-64::six-1.17.0-py312haa95532_0
++defaults/win-64::snappy-1.2.2-hab6b7b3_1
++defaults/win-64::tbb-2022.3.0-h90c84d6_0
++defaults/win-64::tbb-devel-2022.3.0-h90c84d6_0
++defaults/win-64::tensorflow-2.21.0-cpu_py312h6605a60_1
++defaults/win-64::tensorflow-base-2.21.0-cpu_py312hace9712_1
++defaults/win-64::termcolor-3.2.0-py312haa95532_0
++defaults/win-64::typing-extensions-4.15.0-py312haa95532_0
++defaults/win-64::typing_extensions-4.15.0-py312haa95532_0
++defaults/win-64::urllib3-2.7.0-py312haa95532_0
++defaults/win-64::win_inet_pton-1.1.0-py312haa95532_1
++defaults/win-64::wrapt-2.2.1-py312h1c6eee0_0
++defaults/win-64::zstd-1.5.7-h56299aa_0
+# update specs: ['tensorflow']
+==> 2026-06-22 12:45:46 <==
+# cmd: C:\Users\KOSMO\miniconda3\Scripts\conda-script.py install pandas seaborn scikit-learn
+# conda version: 26.3.2
++defaults/noarch::python-tzdata-2026.2-pyhd3eb1b0_0
++defaults/win-64::_openmp_mutex-2.0-52_msvc
++defaults/win-64::contourpy-1.3.3-py312h214f63a_0
++defaults/win-64::cycler-0.12.1-py312haa95532_0
++defaults/win-64::fonttools-4.63.0-py312h1c6eee0_0
++defaults/win-64::freetype-2.14.1-hfbffc0b_0
++defaults/win-64::kiwisolver-1.4.9-py312h03f52e7_0
++defaults/win-64::lcms2-2.16-hb4a4139_0
++defaults/win-64::lerc-3.0-hd77b12b_0
++defaults/win-64::libdeflate-1.17-h2bbff1b_1
++defaults/win-64::libtiff-4.5.1-hd77b12b_0
++defaults/win-64::libwebp-base-1.6.0-hbf3958f_0
++defaults/win-64::matplotlib-base-3.10.9-py312h330ff07_0
++defaults/win-64::narwhals-2.7.0-py312haa95532_0
++defaults/win-64::openjpeg-2.5.2-hae555c5_0
++defaults/win-64::pandas-3.0.3-py312hf6ff4c0_0
++defaults/win-64::pillow-11.1.0-py312h096bfcc_0
++defaults/win-64::pyparsing-3.2.5-py312haa95532_0
++defaults/win-64::python-dateutil-2.9.0post0-py312haa95532_2
++defaults/win-64::scikit-learn-1.9.0-py312h6c0dd63_0
++defaults/win-64::scipy-1.17.1-py312h97a0a95_1
++defaults/win-64::seaborn-0.13.2-py312haa95532_3
++defaults/win-64::threadpoolctl-3.5.0-py312h4442805_1
++defaults/win-64::vcomp14-14.44.35208-h4927774_12
+# update specs: ['pandas', 'scikit-learn', 'seaborn']
+==> 2026-06-22 14:34:47 <==
+# cmd: C:\Users\KOSMO\miniconda3\Scripts\conda-script.py install fastapi uvicorn
+# conda version: 26.3.2
++defaults/win-64::annotated-doc-0.0.4-py312haa95532_0
++defaults/win-64::annotated-types-0.6.0-py312haa95532_1
++defaults/win-64::anyio-4.12.1-py312haa95532_0
++defaults/win-64::click-8.4.1-py312haa95532_0
++defaults/win-64::colorama-0.4.6-py312haa95532_0
++defaults/win-64::dnspython-2.8.0-py312haa95532_0
++defaults/win-64::email-validator-2.3.0-py312haa95532_0
++defaults/win-64::fastapi-0.135.4-py312haa95532_0
++defaults/win-64::fastapi-cli-0.0.20-py312haa95532_0
++defaults/win-64::fastapi-core-0.135.4-py312haa95532_0
++defaults/win-64::h11-0.16.0-py312haa95532_1
++defaults/win-64::httpcore-1.0.9-py312haa95532_0
++defaults/win-64::httptools-0.7.1-py312h02ab6af_0
++defaults/win-64::httpx-0.28.1-py312haa95532_1
++defaults/win-64::jinja2-3.1.6-py312haa95532_0
++defaults/win-64::markupsafe-3.0.2-py312h827c3e9_0
++defaults/win-64::pydantic-2.13.4-py312haa95532_0
++defaults/win-64::pydantic-core-2.46.4-py312h51239a8_0
++defaults/win-64::pydantic-extra-types-2.11.0-py312haa95532_0
++defaults/win-64::pydantic-settings-2.12.0-py312haa95532_0
++defaults/win-64::python-dotenv-1.2.1-py312haa95532_0
++defaults/win-64::python-multipart-0.0.29-py312haa95532_0
++defaults/win-64::pyyaml-6.0.3-py312hb9a58be_0
++defaults/win-64::rich-toolkit-0.17.1-py312haa95532_0
++defaults/win-64::shellingham-1.5.4-py312haa95532_0
++defaults/win-64::starlette-1.2.1-py312haa95532_0
++defaults/win-64::typer-0.25.1-py312haa95532_0
++defaults/win-64::typing-inspection-0.4.2-py312haa95532_0
++defaults/win-64::uvicorn-0.40.0-py312haa95532_0
++defaults/win-64::uvicorn-standard-0.40.0-py312haa95532_0
++defaults/win-64::watchfiles-1.2.0-py312h51239a8_0
++defaults/win-64::websockets-15.0.1-py312h827c3e9_0
++defaults/win-64::yaml-0.2.5-he774522_0
+# update specs: ['uvicorn', 'fastapi']

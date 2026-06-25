@@ -1,0 +1,373 @@
+{
+  "name": "flatbuffers",
+  "version": "25.9.23",
+  "build": "h4412200_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "flatbuffers-25.9.23-h4412200_0.conda",
+  "md5": "a25eb60f62dce5e6b1a7500f53648e49",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/flatbuffers-25.9.23-h4412200_0.conda",
+  "sha256": "60592c688bb41a2a78e6fac4cc21be5052c31764a483fe3c550a7ffdbfa3462b",
+  "depends": [
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1773259404000,
+  "size": 1783191,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\flatbuffers-25.9.23-h4412200_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\flatbuffers-25.9.23-h4412200_0",
+  "files": [
+    "Library/bin/flatc.exe",
+    "Library/include/flatbuffers/allocator.h",
+    "Library/include/flatbuffers/array.h",
+    "Library/include/flatbuffers/base.h",
+    "Library/include/flatbuffers/buffer.h",
+    "Library/include/flatbuffers/buffer_ref.h",
+    "Library/include/flatbuffers/code_generator.h",
+    "Library/include/flatbuffers/code_generators.h",
+    "Library/include/flatbuffers/default_allocator.h",
+    "Library/include/flatbuffers/detached_buffer.h",
+    "Library/include/flatbuffers/file_manager.h",
+    "Library/include/flatbuffers/flatbuffer_builder.h",
+    "Library/include/flatbuffers/flatbuffers.h",
+    "Library/include/flatbuffers/flatc.h",
+    "Library/include/flatbuffers/flex_flat_util.h",
+    "Library/include/flatbuffers/flexbuffers.h",
+    "Library/include/flatbuffers/grpc.h",
+    "Library/include/flatbuffers/hash.h",
+    "Library/include/flatbuffers/idl.h",
+    "Library/include/flatbuffers/minireflect.h",
+    "Library/include/flatbuffers/pch/flatc_pch.h",
+    "Library/include/flatbuffers/pch/pch.h",
+    "Library/include/flatbuffers/reflection.h",
+    "Library/include/flatbuffers/reflection_generated.h",
+    "Library/include/flatbuffers/registry.h",
+    "Library/include/flatbuffers/stl_emulation.h",
+    "Library/include/flatbuffers/string.h",
+    "Library/include/flatbuffers/struct.h",
+    "Library/include/flatbuffers/table.h",
+    "Library/include/flatbuffers/util.h",
+    "Library/include/flatbuffers/vector.h",
+    "Library/include/flatbuffers/vector_downward.h",
+    "Library/include/flatbuffers/verifier.h",
+    "Library/lib/cmake/flatbuffers/BuildFlatBuffers.cmake",
+    "Library/lib/cmake/flatbuffers/FlatBuffersTargets-release.cmake",
+    "Library/lib/cmake/flatbuffers/FlatBuffersTargets.cmake",
+    "Library/lib/cmake/flatbuffers/FlatcTargets-release.cmake",
+    "Library/lib/cmake/flatbuffers/FlatcTargets.cmake",
+    "Library/lib/cmake/flatbuffers/flatbuffers-config-version.cmake",
+    "Library/lib/cmake/flatbuffers/flatbuffers-config.cmake",
+    "Library/lib/flatbuffers.lib",
+    "Library/lib/pkgconfig/flatbuffers.pc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Library/bin/flatc.exe",
+        "path_type": "hardlink",
+        "sha256": "53b89c57b43172ffeb5aa8cd25cc5149703718a12374d7d96ad100cd9e73163a",
+        "size_in_bytes": 3564872,
+        "sha256_in_prefix": "53b89c57b43172ffeb5aa8cd25cc5149703718a12374d7d96ad100cd9e73163a"
+      },
+      {
+        "_path": "Library/include/flatbuffers/allocator.h",
+        "path_type": "hardlink",
+        "sha256": "9ac3f3659ff1e5ff1b2be6166f08490d16f67b1e87d2e70ef87c3fd5d2689caf",
+        "size_in_bytes": 2588,
+        "sha256_in_prefix": "9ac3f3659ff1e5ff1b2be6166f08490d16f67b1e87d2e70ef87c3fd5d2689caf"
+      },
+      {
+        "_path": "Library/include/flatbuffers/array.h",
+        "path_type": "hardlink",
+        "sha256": "124aa84b1afab74b0e0b4b01989d154aef1d27e210ae7a20148f2932819b94c8",
+        "size_in_bytes": 9060,
+        "sha256_in_prefix": "124aa84b1afab74b0e0b4b01989d154aef1d27e210ae7a20148f2932819b94c8"
+      },
+      {
+        "_path": "Library/include/flatbuffers/base.h",
+        "path_type": "hardlink",
+        "sha256": "5aa62f7124a1fc0788e9bedd3a95c7b9ddc634adedb9d0529704503a29bc6739",
+        "size_in_bytes": 17446,
+        "sha256_in_prefix": "5aa62f7124a1fc0788e9bedd3a95c7b9ddc634adedb9d0529704503a29bc6739"
+      },
+      {
+        "_path": "Library/include/flatbuffers/buffer.h",
+        "path_type": "hardlink",
+        "sha256": "8506628aa30e1c4768079eaceb4e46292ecae82b6adf6513302d3b5316547f6c",
+        "size_in_bytes": 8144,
+        "sha256_in_prefix": "8506628aa30e1c4768079eaceb4e46292ecae82b6adf6513302d3b5316547f6c"
+      },
+      {
+        "_path": "Library/include/flatbuffers/buffer_ref.h",
+        "path_type": "hardlink",
+        "sha256": "db4c627e3bfb728273ea36e65fa0f97c70c9911abc8799797893f986f0c68286",
+        "size_in_bytes": 1512,
+        "sha256_in_prefix": "db4c627e3bfb728273ea36e65fa0f97c70c9911abc8799797893f986f0c68286"
+      },
+      {
+        "_path": "Library/include/flatbuffers/code_generator.h",
+        "path_type": "hardlink",
+        "sha256": "ae0e3c7afb369ddc672a9d35941a92ba78b081b3582fe21c4c8fa5ba77919911",
+        "size_in_bytes": 2976,
+        "sha256_in_prefix": "ae0e3c7afb369ddc672a9d35941a92ba78b081b3582fe21c4c8fa5ba77919911"
+      },
+      {
+        "_path": "Library/include/flatbuffers/code_generators.h",
+        "path_type": "hardlink",
+        "sha256": "822bad303d1c40038c6df8b35493fabd94092360c1da0ba136f61218a11a5fcf",
+        "size_in_bytes": 8287,
+        "sha256_in_prefix": "822bad303d1c40038c6df8b35493fabd94092360c1da0ba136f61218a11a5fcf"
+      },
+      {
+        "_path": "Library/include/flatbuffers/default_allocator.h",
+        "path_type": "hardlink",
+        "sha256": "9532a571b57f5f0c1763fe6f6f90121b46ce20a8f3d6b53b22645bb8f2716c7f",
+        "size_in_bytes": 2380,
+        "sha256_in_prefix": "9532a571b57f5f0c1763fe6f6f90121b46ce20a8f3d6b53b22645bb8f2716c7f"
+      },
+      {
+        "_path": "Library/include/flatbuffers/detached_buffer.h",
+        "path_type": "hardlink",
+        "sha256": "d34758c25713bebc10e31f4a591d38485413f16942b3650245b3371a0cdcd4cf",
+        "size_in_bytes": 3266,
+        "sha256_in_prefix": "d34758c25713bebc10e31f4a591d38485413f16942b3650245b3371a0cdcd4cf"
+      },
+      {
+        "_path": "Library/include/flatbuffers/file_manager.h",
+        "path_type": "hardlink",
+        "sha256": "d1363b7e53c582e9227460010c60eac0e76ab6a4c1c1f6532cb9d198b09a6cc5",
+        "size_in_bytes": 1397,
+        "sha256_in_prefix": "d1363b7e53c582e9227460010c60eac0e76ab6a4c1c1f6532cb9d198b09a6cc5"
+      },
+      {
+        "_path": "Library/include/flatbuffers/flatbuffer_builder.h",
+        "path_type": "hardlink",
+        "sha256": "564db1ad19a98cb3197471393f038411ae69464d9a8ab1a3177f444a3931b305",
+        "size_in_bytes": 62763,
+        "sha256_in_prefix": "564db1ad19a98cb3197471393f038411ae69464d9a8ab1a3177f444a3931b305"
+      },
+      {
+        "_path": "Library/include/flatbuffers/flatbuffers.h",
+        "path_type": "hardlink",
+        "sha256": "0d0edc1a6c9dd1ccedc1c0ac2d144b7c04e829f76bb99ab007ab5631ffa96ecd",
+        "size_in_bytes": 10995,
+        "sha256_in_prefix": "0d0edc1a6c9dd1ccedc1c0ac2d144b7c04e829f76bb99ab007ab5631ffa96ecd"
+      },
+      {
+        "_path": "Library/include/flatbuffers/flatc.h",
+        "path_type": "hardlink",
+        "sha256": "ee30bd369ec43796741106d0f6eeaa9061c92cb7a9c02ea0d4f0d3b0fe10b270",
+        "size_in_bytes": 4035,
+        "sha256_in_prefix": "ee30bd369ec43796741106d0f6eeaa9061c92cb7a9c02ea0d4f0d3b0fe10b270"
+      },
+      {
+        "_path": "Library/include/flatbuffers/flex_flat_util.h",
+        "path_type": "hardlink",
+        "sha256": "1fa29966266af2920bd20f3619c7e5292f9576460e0a26b54a6920841e094940",
+        "size_in_bytes": 1220,
+        "sha256_in_prefix": "1fa29966266af2920bd20f3619c7e5292f9576460e0a26b54a6920841e094940"
+      },
+      {
+        "_path": "Library/include/flatbuffers/flexbuffers.h",
+        "path_type": "hardlink",
+        "sha256": "0b4285d26ef7ed519b5abea4e75c7dd14a43741ef4824479e6a2f9c3d9372a31",
+        "size_in_bytes": 67675,
+        "sha256_in_prefix": "0b4285d26ef7ed519b5abea4e75c7dd14a43741ef4824479e6a2f9c3d9372a31"
+      },
+      {
+        "_path": "Library/include/flatbuffers/grpc.h",
+        "path_type": "hardlink",
+        "sha256": "15f2d761cf0d23b8564b4eac96a6fbc3ef73a449b1c799b493b305aa7210a3a9",
+        "size_in_bytes": 9968,
+        "sha256_in_prefix": "15f2d761cf0d23b8564b4eac96a6fbc3ef73a449b1c799b493b305aa7210a3a9"
+      },
+      {
+        "_path": "Library/include/flatbuffers/hash.h",
+        "path_type": "hardlink",
+        "sha256": "f497d227cf4005461df95eb982e86dbfcc501600184abe9c6133d254a7933056",
+        "size_in_bytes": 3634,
+        "sha256_in_prefix": "f497d227cf4005461df95eb982e86dbfcc501600184abe9c6133d254a7933056"
+      },
+      {
+        "_path": "Library/include/flatbuffers/idl.h",
+        "path_type": "hardlink",
+        "sha256": "154f60c5476f07c23e7916d8a2e597264503a0c3f85dafe5ba520077ed7a2b19",
+        "size_in_bytes": 47502,
+        "sha256_in_prefix": "154f60c5476f07c23e7916d8a2e597264503a0c3f85dafe5ba520077ed7a2b19"
+      },
+      {
+        "_path": "Library/include/flatbuffers/minireflect.h",
+        "path_type": "hardlink",
+        "sha256": "4b38cf7fc88c476801ce483b0b930f290fcadb5d68e28dfa770e5b26e591f2f8",
+        "size_in_bytes": 13780,
+        "sha256_in_prefix": "4b38cf7fc88c476801ce483b0b930f290fcadb5d68e28dfa770e5b26e591f2f8"
+      },
+      {
+        "_path": "Library/include/flatbuffers/pch/flatc_pch.h",
+        "path_type": "hardlink",
+        "sha256": "6e5b4e04e4dafe59cf4e9ef6f8c009ba530c5aa49d4bba54f3051fc3440d0879",
+        "size_in_bytes": 1120,
+        "sha256_in_prefix": "6e5b4e04e4dafe59cf4e9ef6f8c009ba530c5aa49d4bba54f3051fc3440d0879"
+      },
+      {
+        "_path": "Library/include/flatbuffers/pch/pch.h",
+        "path_type": "hardlink",
+        "sha256": "689a13d8e7fd6374428cade81edb490ccdf09bcd22d4f7164e2781b9db44c3c3",
+        "size_in_bytes": 996,
+        "sha256_in_prefix": "689a13d8e7fd6374428cade81edb490ccdf09bcd22d4f7164e2781b9db44c3c3"
+      },
+      {
+        "_path": "Library/include/flatbuffers/reflection.h",
+        "path_type": "hardlink",
+        "sha256": "90ef08e1d4f7cf32c6f6fcb3206988d6c3b211362d1287322944ae7a234f95f8",
+        "size_in_bytes": 22124,
+        "sha256_in_prefix": "90ef08e1d4f7cf32c6f6fcb3206988d6c3b211362d1287322944ae7a234f95f8"
+      },
+      {
+        "_path": "Library/include/flatbuffers/reflection_generated.h",
+        "path_type": "hardlink",
+        "sha256": "819c3393963919f08cb0d9da6cd215f3ddb9575b05409aaf5f279a1998c67038",
+        "size_in_bytes": 58569,
+        "sha256_in_prefix": "819c3393963919f08cb0d9da6cd215f3ddb9575b05409aaf5f279a1998c67038"
+      },
+      {
+        "_path": "Library/include/flatbuffers/registry.h",
+        "path_type": "hardlink",
+        "sha256": "7ce13bf8f4a1884633fd35eb747b9b97c50508d5305868ea4cde677d3580e02b",
+        "size_in_bytes": 4518,
+        "sha256_in_prefix": "7ce13bf8f4a1884633fd35eb747b9b97c50508d5305868ea4cde677d3580e02b"
+      },
+      {
+        "_path": "Library/include/flatbuffers/stl_emulation.h",
+        "path_type": "hardlink",
+        "sha256": "a6a8033b4738e18b1e0fc0fb4a1e18b446d25799b9769e6d20ffe25395051882",
+        "size_in_bytes": 19107,
+        "sha256_in_prefix": "a6a8033b4738e18b1e0fc0fb4a1e18b446d25799b9769e6d20ffe25395051882"
+      },
+      {
+        "_path": "Library/include/flatbuffers/string.h",
+        "path_type": "hardlink",
+        "sha256": "cc2f7d40f2d5613a0932e63d686aea68cde79f8eb4370476361b219b979f5a53",
+        "size_in_bytes": 2197,
+        "sha256_in_prefix": "cc2f7d40f2d5613a0932e63d686aea68cde79f8eb4370476361b219b979f5a53"
+      },
+      {
+        "_path": "Library/include/flatbuffers/struct.h",
+        "path_type": "hardlink",
+        "sha256": "7efdabf43a53fd2a96382b08745c58832e80be9606c1e8c0b62849e56c5f8e9f",
+        "size_in_bytes": 1581,
+        "sha256_in_prefix": "7efdabf43a53fd2a96382b08745c58832e80be9606c1e8c0b62849e56c5f8e9f"
+      },
+      {
+        "_path": "Library/include/flatbuffers/table.h",
+        "path_type": "hardlink",
+        "sha256": "e351a1a3ab02c57b2d10f453b773d4d6ed84110595897f2320fa29ef9e151199",
+        "size_in_bytes": 6778,
+        "sha256_in_prefix": "e351a1a3ab02c57b2d10f453b773d4d6ed84110595897f2320fa29ef9e151199"
+      },
+      {
+        "_path": "Library/include/flatbuffers/util.h",
+        "path_type": "hardlink",
+        "sha256": "5f0feaeabb6f807801cc232628646199f5c199a86f3150a696376dbe6f3cd836",
+        "size_in_bytes": 26759,
+        "sha256_in_prefix": "5f0feaeabb6f807801cc232628646199f5c199a86f3150a696376dbe6f3cd836"
+      },
+      {
+        "_path": "Library/include/flatbuffers/vector.h",
+        "path_type": "hardlink",
+        "sha256": "4fba123f88cb23e4a9d0c065b017226070c87d3594a7b579f29d529536cb2180",
+        "size_in_bytes": 13500,
+        "sha256_in_prefix": "4fba123f88cb23e4a9d0c065b017226070c87d3594a7b579f29d529536cb2180"
+      },
+      {
+        "_path": "Library/include/flatbuffers/vector_downward.h",
+        "path_type": "hardlink",
+        "sha256": "7f687fdb661f4c1be09223d6e416e042b139ff1748b5a215cb9864c56f9f3be2",
+        "size_in_bytes": 8699,
+        "sha256_in_prefix": "7f687fdb661f4c1be09223d6e416e042b139ff1748b5a215cb9864c56f9f3be2"
+      },
+      {
+        "_path": "Library/include/flatbuffers/verifier.h",
+        "path_type": "hardlink",
+        "sha256": "d7fbf583019088983af684e7d00cbfda23b759093c6501f850c1c33400559b5a",
+        "size_in_bytes": 13516,
+        "sha256_in_prefix": "d7fbf583019088983af684e7d00cbfda23b759093c6501f850c1c33400559b5a"
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/BuildFlatBuffers.cmake",
+        "path_type": "hardlink",
+        "sha256": "27334ab7a7bc7f35fc01cfa99670c63511486125180b99d9161afdcfc0512ca8",
+        "size_in_bytes": 17082,
+        "sha256_in_prefix": "27334ab7a7bc7f35fc01cfa99670c63511486125180b99d9161afdcfc0512ca8"
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatBuffersTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "a656dbb01879ff8b3da6f81dd05ca9693b229d2d860e4842429604065b093958",
+        "size_in_bytes": 920,
+        "sha256_in_prefix": "a656dbb01879ff8b3da6f81dd05ca9693b229d2d860e4842429604065b093958"
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatBuffersTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "8cd91f9b826a53620641cc13e9aaf6cef23101603cdf3964e39998c10b2befa6",
+        "size_in_bytes": 4315,
+        "sha256_in_prefix": "8cd91f9b826a53620641cc13e9aaf6cef23101603cdf3964e39998c10b2befa6"
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatcTargets-release.cmake",
+        "path_type": "hardlink",
+        "sha256": "1fb155fa6df9a2ca2bb2e098f79081f0ff581dea1a759656da1fb39ac6c3eeba",
+        "size_in_bytes": 827,
+        "sha256_in_prefix": "1fb155fa6df9a2ca2bb2e098f79081f0ff581dea1a759656da1fb39ac6c3eeba"
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/FlatcTargets.cmake",
+        "path_type": "hardlink",
+        "sha256": "89c88f5035deb3b794fa26709248a56fdcc326ad1e83ba0c1e812f69fc564311",
+        "size_in_bytes": 4113,
+        "sha256_in_prefix": "89c88f5035deb3b794fa26709248a56fdcc326ad1e83ba0c1e812f69fc564311"
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/flatbuffers-config-version.cmake",
+        "path_type": "hardlink",
+        "sha256": "867723635b89d11bf47fa1e156795661de197c701ee22032162cba089aa6e2c9",
+        "size_in_bytes": 380,
+        "sha256_in_prefix": "867723635b89d11bf47fa1e156795661de197c701ee22032162cba089aa6e2c9"
+      },
+      {
+        "_path": "Library/lib/cmake/flatbuffers/flatbuffers-config.cmake",
+        "path_type": "hardlink",
+        "sha256": "3a6a3c94c870e6c9bfcf4a29790bf60daafbbb4f1e72730e1aaa62fe174174a7",
+        "size_in_bytes": 281,
+        "sha256_in_prefix": "3a6a3c94c870e6c9bfcf4a29790bf60daafbbb4f1e72730e1aaa62fe174174a7"
+      },
+      {
+        "_path": "Library/lib/flatbuffers.lib",
+        "path_type": "hardlink",
+        "sha256": "8aced1ae4a69de84ca2263f577ba018d97e87bb01e116669842a794f2a6950f7",
+        "size_in_bytes": 8250484,
+        "sha256_in_prefix": "8aced1ae4a69de84ca2263f577ba018d97e87bb01e116669842a794f2a6950f7"
+      },
+      {
+        "_path": "Library/lib/pkgconfig/flatbuffers.pc",
+        "prefix_placeholder": "C:/Users/task_177325881963262/croot/flatbuffers_1773259257076/_h_env",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "sha256": "f8828e9a0861a4c97e28125a00725c6b66abd83c1b6fe4c9a7bd6fb37bf0f144",
+        "size_in_bytes": 338,
+        "sha256_in_prefix": "c801a06e2bc5e13c85287d483ed56132a72bc6248e10e19a7ca996fd643721bc"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\flatbuffers-25.9.23-h4412200_0",
+    "type": 1
+  }
+}

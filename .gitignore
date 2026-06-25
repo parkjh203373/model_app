@@ -1,0 +1,26 @@
+# 1. 가상환경 및 외부 패키지 (핵심 원인 차단)
+.venv/
+venv/
+ENV/
+env/
+model_test/Lib/
+model_test/Library/
+model_test/Scripts/
+model_test/Include/
+model_test/share/
+model_test/.pytest_cache/
+__pycache__/
+*.pyc
+
+# 2. 환경 변수 및 보안 키 파일
+.env
+*.pem
+
+# 3. 리액트(React) 라이브러리 및 빌드 결과물
+model-front/node_modules/
+model-front/build/
+model-front/dist/
+
+# 4. 스프링 부트(Spring Boot) 빌드 결과물
+model-api/app/.gradle/
+model-api/app/build/

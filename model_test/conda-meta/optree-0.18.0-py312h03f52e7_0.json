@@ -1,0 +1,365 @@
+{
+  "name": "optree",
+  "version": "0.18.0",
+  "build": "py312h03f52e7_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "optree-0.18.0-py312h03f52e7_0.conda",
+  "md5": "0b204ea29a0a9a96d3842552ad292d5a",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/optree-0.18.0-py312h03f52e7_0.conda",
+  "sha256": "81f9e7820e988f1f57a12ef07e5a18d03748e2e4d9ec6d0d772eb4846584d650",
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "typing-extensions >=4.6.0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30133"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1765445175000,
+  "size": 351690,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\optree-0.18.0-py312h03f52e7_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\optree-0.18.0-py312h03f52e7_0",
+  "files": [
+    "Lib/site-packages/optree-0.18.0.dist-info/INSTALLER",
+    "Lib/site-packages/optree-0.18.0.dist-info/METADATA",
+    "Lib/site-packages/optree-0.18.0.dist-info/RECORD",
+    "Lib/site-packages/optree-0.18.0.dist-info/REQUESTED",
+    "Lib/site-packages/optree-0.18.0.dist-info/WHEEL",
+    "Lib/site-packages/optree-0.18.0.dist-info/direct_url.json",
+    "Lib/site-packages/optree-0.18.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/optree-0.18.0.dist-info/top_level.txt",
+    "Lib/site-packages/optree/_C.cp312-win_amd64.pyd",
+    "Lib/site-packages/optree/_C.pyi",
+    "Lib/site-packages/optree/__init__.py",
+    "Lib/site-packages/optree/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/accessors.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/dataclasses.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/functools.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/ops.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/pytree.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/registry.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/treespec.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/typing.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/utils.cpython-312.pyc",
+    "Lib/site-packages/optree/__pycache__/version.cpython-312.pyc",
+    "Lib/site-packages/optree/accessors.py",
+    "Lib/site-packages/optree/dataclasses.py",
+    "Lib/site-packages/optree/functools.py",
+    "Lib/site-packages/optree/integrations/__init__.py",
+    "Lib/site-packages/optree/integrations/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/optree/integrations/__pycache__/jax.cpython-312.pyc",
+    "Lib/site-packages/optree/integrations/__pycache__/numpy.cpython-312.pyc",
+    "Lib/site-packages/optree/integrations/__pycache__/torch.cpython-312.pyc",
+    "Lib/site-packages/optree/integrations/jax.py",
+    "Lib/site-packages/optree/integrations/numpy.py",
+    "Lib/site-packages/optree/integrations/torch.py",
+    "Lib/site-packages/optree/ops.py",
+    "Lib/site-packages/optree/py.typed",
+    "Lib/site-packages/optree/pytree.py",
+    "Lib/site-packages/optree/registry.py",
+    "Lib/site-packages/optree/treespec.py",
+    "Lib/site-packages/optree/typing.py",
+    "Lib/site-packages/optree/utils.py",
+    "Lib/site-packages/optree/version.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "8b213644884a29ac11b389a38e1bbc855b1060a514e5f88df515a0ebc4010965",
+        "size_in_bytes": 35045,
+        "sha256_in_prefix": "8b213644884a29ac11b389a38e1bbc855b1060a514e5f88df515a0ebc4010965"
+      },
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5c885facd71be6929aac357f4145f7c0c57a6a90092f977895ce958eba3605cb",
+        "size_in_bytes": 2822,
+        "sha256_in_prefix": "5c885facd71be6929aac357f4145f7c0c57a6a90092f977895ce958eba3605cb"
+      },
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f143fdc7da6e588d0fd55fddecada831306a7de2cd9b6d424f367f3edaf43575",
+        "size_in_bytes": 101,
+        "sha256_in_prefix": "f143fdc7da6e588d0fd55fddecada831306a7de2cd9b6d424f367f3edaf43575"
+      },
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "9dc4ff7fc65ec82e9bf99d494ca73b9d9cbb0eb05a606f4f03c2b5c058ac4ff6",
+        "size_in_bytes": 84,
+        "sha256_in_prefix": "9dc4ff7fc65ec82e9bf99d494ca73b9d9cbb0eb05a606f4f03c2b5c058ac4ff6"
+      },
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "fe6481fd2e95e493e06b04224d568fdc08ecdafb79428a7130c229958ad47b2f",
+        "size_in_bytes": 11370,
+        "sha256_in_prefix": "fe6481fd2e95e493e06b04224d568fdc08ecdafb79428a7130c229958ad47b2f"
+      },
+      {
+        "_path": "Lib/site-packages/optree-0.18.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c31816b139294a5733ddd5fd7cc25bf1287002515d054a6fae5311604df5fcfa",
+        "size_in_bytes": 7,
+        "sha256_in_prefix": "c31816b139294a5733ddd5fd7cc25bf1287002515d054a6fae5311604df5fcfa"
+      },
+      {
+        "_path": "Lib/site-packages/optree/_C.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "7367b97364a3ca3e7d346a96214fe0a00c6ffcbfaa7a230482e73db0da730919",
+        "size_in_bytes": 578376,
+        "sha256_in_prefix": "7367b97364a3ca3e7d346a96214fe0a00c6ffcbfaa7a230482e73db0da730919"
+      },
+      {
+        "_path": "Lib/site-packages/optree/_C.pyi",
+        "path_type": "hardlink",
+        "sha256": "44ce630fdf956dccefb4ffe0f6f9d8df5d144f6c4ee83fff18d51b0666b008fe",
+        "size_in_bytes": 6931,
+        "sha256_in_prefix": "44ce630fdf956dccefb4ffe0f6f9d8df5d144f6c4ee83fff18d51b0666b008fe"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3d1332704fc1d33568e0f4acd37c54893781f4ca1817f3941f3210bd33cc368c",
+        "size_in_bytes": 5963,
+        "sha256_in_prefix": "3d1332704fc1d33568e0f4acd37c54893781f4ca1817f3941f3210bd33cc368c"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1cc9f5bcb5941e3441dc0a603b17b9f8624f9e2c443a2e803982d3b724dd7d0a",
+        "size_in_bytes": 3892,
+        "sha256_in_prefix": "1cc9f5bcb5941e3441dc0a603b17b9f8624f9e2c443a2e803982d3b724dd7d0a"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/accessors.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2c5452c8573cae2eb8b3cf5a51e43d7daba943a0fa4b9dabc34ff12efa913cc",
+        "size_in_bytes": 20175,
+        "sha256_in_prefix": "a2c5452c8573cae2eb8b3cf5a51e43d7daba943a0fa4b9dabc34ff12efa913cc"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/dataclasses.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "99fd98aab145aa3b930cba0e3f9d15e1e32b8bfc43eb765a3fd757632fef6b73",
+        "size_in_bytes": 19526,
+        "sha256_in_prefix": "99fd98aab145aa3b930cba0e3f9d15e1e32b8bfc43eb765a3fd757632fef6b73"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/functools.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d8b02edd13f5f8e7fdf2735561b5e5042723502779846b14bb92fc0f6824cfb",
+        "size_in_bytes": 7677,
+        "sha256_in_prefix": "7d8b02edd13f5f8e7fdf2735561b5e5042723502779846b14bb92fc0f6824cfb"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/ops.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f3bc7b387c5f4a9615b6d96f977a33bf0db34f34c5baf71c7f22c3a5fff137f",
+        "size_in_bytes": 156784,
+        "sha256_in_prefix": "7f3bc7b387c5f4a9615b6d96f977a33bf0db34f34c5baf71c7f22c3a5fff137f"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/pytree.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed7381cd298d063dd45e5156aa8039e79c200aac19693d582cf4200c517cfd4d",
+        "size_in_bytes": 14625,
+        "sha256_in_prefix": "ed7381cd298d063dd45e5156aa8039e79c200aac19693d582cf4200c517cfd4d"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/registry.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "95529367b39a764276293a8f5ac69e6d840684492cc4f334934617fe02e12f5d",
+        "size_in_bytes": 35945,
+        "sha256_in_prefix": "95529367b39a764276293a8f5ac69e6d840684492cc4f334934617fe02e12f5d"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/treespec.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c386b556ee228079dfc70a808a0d4ad6a87fdd612f60af4779e379cc21978663",
+        "size_in_bytes": 1176,
+        "sha256_in_prefix": "c386b556ee228079dfc70a808a0d4ad6a87fdd612f60af4779e379cc21978663"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/typing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "24c6f68eaa42183d590a43adf2c4bb10f26eea271c5ab9a6c1c252e50bdb8aff",
+        "size_in_bytes": 21627,
+        "sha256_in_prefix": "24c6f68eaa42183d590a43adf2c4bb10f26eea271c5ab9a6c1c252e50bdb8aff"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/utils.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "be962e30f05e06a5db191917d4e9f64e3a74acaa8f72a299b8e1bb5fdec36ddf",
+        "size_in_bytes": 4027,
+        "sha256_in_prefix": "be962e30f05e06a5db191917d4e9f64e3a74acaa8f72a299b8e1bb5fdec36ddf"
+      },
+      {
+        "_path": "Lib/site-packages/optree/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "60ac9b8cbdd6bde0cb705dba2490bef95de45af7c111258ccd0e327404ae0ab6",
+        "size_in_bytes": 1657,
+        "sha256_in_prefix": "60ac9b8cbdd6bde0cb705dba2490bef95de45af7c111258ccd0e327404ae0ab6"
+      },
+      {
+        "_path": "Lib/site-packages/optree/accessors.py",
+        "path_type": "hardlink",
+        "sha256": "4b48b11fb854f2ba2b359c46328ccc8520226e69d4dd8ee956d8da8d8b7bc411",
+        "size_in_bytes": 14452,
+        "sha256_in_prefix": "4b48b11fb854f2ba2b359c46328ccc8520226e69d4dd8ee956d8da8d8b7bc411"
+      },
+      {
+        "_path": "Lib/site-packages/optree/dataclasses.py",
+        "path_type": "hardlink",
+        "sha256": "3fd3479f9be96f8c70fee52fd71ba8dca18c970e48a2ce7928900bebcf4b5860",
+        "size_in_bytes": 20143,
+        "sha256_in_prefix": "3fd3479f9be96f8c70fee52fd71ba8dca18c970e48a2ce7928900bebcf4b5860"
+      },
+      {
+        "_path": "Lib/site-packages/optree/functools.py",
+        "path_type": "hardlink",
+        "sha256": "c0527c4218d2d010ac7c2d1e50119241f261b33bbdeb4d29c878796b92409ba8",
+        "size_in_bytes": 6424,
+        "sha256_in_prefix": "c0527c4218d2d010ac7c2d1e50119241f261b33bbdeb4d29c878796b92409ba8"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "40c0b7c42367a560a895790f20863e4f0b739e9405dc6dbb343c972cd318c6ff",
+        "size_in_bytes": 1587,
+        "sha256_in_prefix": "40c0b7c42367a560a895790f20863e4f0b739e9405dc6dbb343c972cd318c6ff"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "07ede63c58af4325434be14c963fa54c04c789b4eaccd69c3fa5a4d23d3be71f",
+        "size_in_bytes": 1334,
+        "sha256_in_prefix": "07ede63c58af4325434be14c963fa54c04c789b4eaccd69c3fa5a4d23d3be71f"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/__pycache__/jax.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "00aba052988db9faefeb595bff81a0e76e22a4d86c8ae197efb23d5e8b9eeb5e",
+        "size_in_bytes": 12364,
+        "sha256_in_prefix": "00aba052988db9faefeb595bff81a0e76e22a4d86c8ae197efb23d5e8b9eeb5e"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/__pycache__/numpy.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9107ba79bd5e789e31b9d7f591e6d333094df34ffd65efb6fc9422d112787a65",
+        "size_in_bytes": 9563,
+        "sha256_in_prefix": "9107ba79bd5e789e31b9d7f591e6d333094df34ffd65efb6fc9422d112787a65"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/__pycache__/torch.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed994dadc860831a3cebfd5a848bb1e821f7271e60e06a95dc46a3d94f050183",
+        "size_in_bytes": 10147,
+        "sha256_in_prefix": "ed994dadc860831a3cebfd5a848bb1e821f7271e60e06a95dc46a3d94f050183"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/jax.py",
+        "path_type": "hardlink",
+        "sha256": "d78a90390edff2153282d8c5a19b906c57fd1bdb630307312f33c7673e051b9f",
+        "size_in_bytes": 10799,
+        "sha256_in_prefix": "d78a90390edff2153282d8c5a19b906c57fd1bdb630307312f33c7673e051b9f"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/numpy.py",
+        "path_type": "hardlink",
+        "sha256": "c40a939dfbffc599196a9e4d2d0bd491928eff4886abebeafb2e7d96d66de53a",
+        "size_in_bytes": 7839,
+        "sha256_in_prefix": "c40a939dfbffc599196a9e4d2d0bd491928eff4886abebeafb2e7d96d66de53a"
+      },
+      {
+        "_path": "Lib/site-packages/optree/integrations/torch.py",
+        "path_type": "hardlink",
+        "sha256": "1ce4f4ac9d1f1498b72105b0102110ae4a36c7b1070eadcde85bae34753509ae",
+        "size_in_bytes": 8155,
+        "sha256_in_prefix": "1ce4f4ac9d1f1498b72105b0102110ae4a36c7b1070eadcde85bae34753509ae"
+      },
+      {
+        "_path": "Lib/site-packages/optree/ops.py",
+        "path_type": "hardlink",
+        "sha256": "fc16458a76401395341605bcd15ee32f1a33b4a52e512d97adece9ca7aa82408",
+        "size_in_bytes": 157020,
+        "sha256_in_prefix": "fc16458a76401395341605bcd15ee32f1a33b4a52e512d97adece9ca7aa82408"
+      },
+      {
+        "_path": "Lib/site-packages/optree/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/optree/pytree.py",
+        "path_type": "hardlink",
+        "sha256": "b44eadec60ce895b9e3b4e84fb9155bea14311e90ff10b4f910e1ae0c333c321",
+        "size_in_bytes": 15157,
+        "sha256_in_prefix": "b44eadec60ce895b9e3b4e84fb9155bea14311e90ff10b4f910e1ae0c333c321"
+      },
+      {
+        "_path": "Lib/site-packages/optree/registry.py",
+        "path_type": "hardlink",
+        "sha256": "c85c5458bec9eb818de7496207044ef931c91cc16adea7839b900fd9c25bc50e",
+        "size_in_bytes": 33830,
+        "sha256_in_prefix": "c85c5458bec9eb818de7496207044ef931c91cc16adea7839b900fd9c25bc50e"
+      },
+      {
+        "_path": "Lib/site-packages/optree/treespec.py",
+        "path_type": "hardlink",
+        "sha256": "096a45d44d8b09efb8cf5e07a4772b3869301be928926bd13ad2663316c1472b",
+        "size_in_bytes": 1923,
+        "sha256_in_prefix": "096a45d44d8b09efb8cf5e07a4772b3869301be928926bd13ad2663316c1472b"
+      },
+      {
+        "_path": "Lib/site-packages/optree/typing.py",
+        "path_type": "hardlink",
+        "sha256": "808acb5ef680e9b2d2903a96adaa1182d8609091a9b800c3262b5e02228f6988",
+        "size_in_bytes": 19645,
+        "sha256_in_prefix": "808acb5ef680e9b2d2903a96adaa1182d8609091a9b800c3262b5e02228f6988"
+      },
+      {
+        "_path": "Lib/site-packages/optree/utils.py",
+        "path_type": "hardlink",
+        "sha256": "eedacfb18990a843ccb04ac50b9fec228e5592f1d64f9ec2fed1eadbead9e388",
+        "size_in_bytes": 3498,
+        "sha256_in_prefix": "eedacfb18990a843ccb04ac50b9fec228e5592f1d64f9ec2fed1eadbead9e388"
+      },
+      {
+        "_path": "Lib/site-packages/optree/version.py",
+        "path_type": "hardlink",
+        "sha256": "420d9d6a62fef5be80f457276063b261f5ef764c660ac8d535a29d66bb13df05",
+        "size_in_bytes": 2102,
+        "sha256_in_prefix": "420d9d6a62fef5be80f457276063b261f5ef764c660ac8d535a29d66bb13df05"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\optree-0.18.0-py312h03f52e7_0",
+    "type": 1
+  }
+}

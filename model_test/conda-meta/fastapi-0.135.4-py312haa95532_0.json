@@ -1,0 +1,43 @@
+{
+  "name": "fastapi",
+  "version": "0.135.4",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "fastapi-0.135.4-py312haa95532_0.conda",
+  "md5": "a83292d2c018cc29b30179f81b9150fb",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/fastapi-0.135.4-py312haa95532_0.conda",
+  "sha256": "4b0450d3e400053200d6f52690f9946890a721a41fe1ca257d990b1a428b8d27",
+  "depends": [
+    "email-validator >=2.0.0",
+    "fastapi-cli >=0.0.8",
+    "fastapi-core 0.135.4 py312haa95532_0",
+    "httpx >=0.23.0,<1.0.0",
+    "jinja2 >=3.1.5",
+    "pydantic-extra-types >=2.0.0",
+    "pydantic-settings >=2.0.0",
+    "python >=3.12,<3.13.0a0",
+    "python-multipart >=0.0.18",
+    "uvicorn-standard >=0.12.0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1779213735000,
+  "size": 171557,
+  "requested_spec": "fastapi",
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\fastapi-0.135.4-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\fastapi-0.135.4-py312haa95532_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\fastapi-0.135.4-py312haa95532_0",
+    "type": 1
+  },
+  "requested_specs": [
+    "fastapi"
+  ]
+}

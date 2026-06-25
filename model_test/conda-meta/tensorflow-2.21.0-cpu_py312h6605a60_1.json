@@ -1,0 +1,36 @@
+{
+  "name": "tensorflow",
+  "version": "2.21.0",
+  "build": "cpu_py312h6605a60_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "tensorflow-2.21.0-cpu_py312h6605a60_1.conda",
+  "md5": "d7b28f6fcec0d1e8bcf88ee9ea1d1ac5",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tensorflow-2.21.0-cpu_py312h6605a60_1.conda",
+  "sha256": "9871ed6363311684136d80be9dd63385ef19e7f6d9cc02101a1b766df0ec6b24",
+  "depends": [
+    "python >=3.12,<3.13.0a0",
+    "tensorflow-base 2.21.0 cpu_py312hace9712_1"
+  ],
+  "constrains": [],
+  "track_features": "tensorflow-cpu",
+  "license": "Apache-2.0",
+  "timestamp": 1778210487000,
+  "size": 58847,
+  "requested_spec": "tensorflow",
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\tensorflow-2.21.0-cpu_py312h6605a60_1.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\tensorflow-2.21.0-cpu_py312h6605a60_1",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\tensorflow-2.21.0-cpu_py312h6605a60_1",
+    "type": 1
+  },
+  "requested_specs": [
+    "tensorflow"
+  ]
+}

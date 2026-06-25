@@ -1,0 +1,40 @@
+{
+  "name": "numpy",
+  "version": "2.4.6",
+  "build": "py312h9606935_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "numpy-2.4.6-py312h9606935_0.conda",
+  "md5": "70504f43d87888ff57e06771fdde593c",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-2.4.6-py312h9606935_0.conda",
+  "sha256": "c08a3827f8f14a279b18a46359292ee1235bbeddf20c435781ed13b62fe749d4",
+  "depends": [
+    "blas * mkl",
+    "mkl >=2025.0.0,<2026.0a0",
+    "mkl-service >=2.3.0,<3.0a0",
+    "mkl_fft",
+    "mkl_random",
+    "numpy-base 2.4.6 py312h89dd80d_0",
+    "python >=3.12,<3.13.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.3,<15",
+    "vc14_runtime >=14.44.35208"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0",
+  "timestamp": 1780346386000,
+  "size": 19984,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\numpy-2.4.6-py312h9606935_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\numpy-2.4.6-py312h9606935_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\numpy-2.4.6-py312h9606935_0",
+    "type": 1
+  }
+}

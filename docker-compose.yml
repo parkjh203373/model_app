@@ -1,0 +1,67 @@
+# Docker Compose 파일 형식의 버전을 지정합니다. (3.8은 가장 안정적이고 널리 쓰이는 버전입니다.)
+version: '3.8'
+
+services:
+  # ==========================================
+  # 💻 1. 프론트엔드 서비스 (React + Nginx 로 내부 중계)
+  # ==========================================
+  react-app:
+    # 컨테이너가 실행될 때 부여할 고유 이름을 지정합니다.
+    container_name: react-container
+    
+    # 이미지를 빌드하기 위한 정보를 적는 곳입니다.
+    build:
+      # docker-compose.yml 파일 위치를 기준으로 한 React 프로젝트 폴더의 상대 경로입니다.
+      context: ./model-front
+      # 해당 폴더 안에서 읽을 Dockerfile 파일명을 지정합니다.
+      dockerfile: Dockerfile
+      
+    # 포트 포워딩 설정 (외부접근포트:컨테이너내부포트)
+    # 사용자가 서버 IP의 80번 포트(HTTP)로 접속하면 컨테이너 내부의 Nginx(80번 포트)로 연결합니다.
+    ports:
+      - "80:80"
+      
+    # 서비스 간의 의존성(실행 순서)을 정의합니다.
+    # 백엔드 서버들이 먼저 완전히 켜진 후에 React 컨테이너가 실행되도록 보장합니다.
+    depends_on:
+      - springboot-app
+      - fastapi-app
+
+  # ==========================================
+  # ☕ 2. 백엔드 서비스 (Spring Boot)
+  # ==========================================
+  springboot-app:
+    # Nginx 리버스 프록시 설정 파일(nginx.conf)에서 주소명으로 인식할 아주 중요한 컨테이너 이름입니다.
+    container_name: springboot-container
+    
+    build:
+      # Spring Boot 프로젝트 폴더의 상대 경로를 적어줍니다.
+      context: ./model-api/app
+      dockerfile: Dockerfile
+      
+    # 외부에서 8080 포트로도 직접 API 테스트를 할 수 있도록 포트를 열어둡니다.
+    ports:
+      - "8080:8080"
+
+    # Spring Boot 앱이 FastAPI 컨테이너망을 찾아갈 수 있도록 환경변수를 주입합니다.
+    environment:
+      - FASTAPI_URL=http://fastapi-container:8000/api2/
+
+    depends_on:
+      - fastapi-app
+
+  # ==========================================
+  # 🐍 3. AI/데이터 백엔드 서비스 (FastAPI)
+  # ==========================================
+  fastapi-app:
+    # Nginx 리버스 프록시 설정 파일(nginx.conf)에서 주소명으로 인식할 아주 중요한 컨테이너 이름입니다.
+    container_name: fastapi-container
+    
+    build:
+      # FastAPI 프로젝트 폴더의 상대 경로를 적어줍니다.
+      context: ./model_test/model_app
+      dockerfile: Dockerfile
+      
+    # 외부에서 8000 포트로도 직접 Swagger 문서(/docs) 등을 테스트할 수 있도록 포트를 열어둡니다.
+    ports:
+      - "8000:8000"

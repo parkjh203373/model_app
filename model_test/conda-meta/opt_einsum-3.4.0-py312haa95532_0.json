@@ -1,0 +1,538 @@
+{
+  "name": "opt_einsum",
+  "version": "3.4.0",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "opt_einsum-3.4.0-py312haa95532_0.conda",
+  "md5": "7367206416305fa5d340845180517015",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/opt_einsum-3.4.0-py312haa95532_0.conda",
+  "sha256": "d6f7ebd2f5d57959c21b99e3a7ac769332a42f874aa9afb97489ee14d4185e38",
+  "depends": [
+    "numpy",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "constrains": [],
+  "license": "MIT",
+  "timestamp": 1779874862000,
+  "size": 161780,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\opt_einsum-3.4.0-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\opt_einsum-3.4.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/opt_einsum-3.4.0.dist-info/INSTALLER",
+    "Lib/site-packages/opt_einsum-3.4.0.dist-info/METADATA",
+    "Lib/site-packages/opt_einsum-3.4.0.dist-info/RECORD",
+    "Lib/site-packages/opt_einsum-3.4.0.dist-info/REQUESTED",
+    "Lib/site-packages/opt_einsum-3.4.0.dist-info/WHEEL",
+    "Lib/site-packages/opt_einsum-3.4.0.dist-info/direct_url.json",
+    "Lib/site-packages/opt_einsum-3.4.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/opt_einsum/__init__.py",
+    "Lib/site-packages/opt_einsum/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/blas.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/contract.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/helpers.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/parser.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/path_random.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/paths.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/sharing.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/testing.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/__pycache__/typing.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/_version.py",
+    "Lib/site-packages/opt_einsum/backends/__init__.py",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/cupy.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/dispatch.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/jax.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/object_arrays.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/tensorflow.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/theano.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/__pycache__/torch.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/backends/cupy.py",
+    "Lib/site-packages/opt_einsum/backends/dispatch.py",
+    "Lib/site-packages/opt_einsum/backends/jax.py",
+    "Lib/site-packages/opt_einsum/backends/object_arrays.py",
+    "Lib/site-packages/opt_einsum/backends/tensorflow.py",
+    "Lib/site-packages/opt_einsum/backends/theano.py",
+    "Lib/site-packages/opt_einsum/backends/torch.py",
+    "Lib/site-packages/opt_einsum/blas.py",
+    "Lib/site-packages/opt_einsum/contract.py",
+    "Lib/site-packages/opt_einsum/helpers.py",
+    "Lib/site-packages/opt_einsum/parser.py",
+    "Lib/site-packages/opt_einsum/path_random.py",
+    "Lib/site-packages/opt_einsum/paths.py",
+    "Lib/site-packages/opt_einsum/sharing.py",
+    "Lib/site-packages/opt_einsum/testing.py",
+    "Lib/site-packages/opt_einsum/tests/__init__.py",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_backends.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_blas.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_contract.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_edge_cases.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_input.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_parser.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_paths.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/__pycache__/test_sharing.cpython-312.pyc",
+    "Lib/site-packages/opt_einsum/tests/test_backends.py",
+    "Lib/site-packages/opt_einsum/tests/test_blas.py",
+    "Lib/site-packages/opt_einsum/tests/test_contract.py",
+    "Lib/site-packages/opt_einsum/tests/test_edge_cases.py",
+    "Lib/site-packages/opt_einsum/tests/test_input.py",
+    "Lib/site-packages/opt_einsum/tests/test_parser.py",
+    "Lib/site-packages/opt_einsum/tests/test_paths.py",
+    "Lib/site-packages/opt_einsum/tests/test_sharing.py",
+    "Lib/site-packages/opt_einsum/typing.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/opt_einsum-3.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum-3.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "12bed357d4d84682ee6775c6b9922f79333d40a5f12d0e43271ca16571da23cc",
+        "size_in_bytes": 6345,
+        "sha256_in_prefix": "12bed357d4d84682ee6775c6b9922f79333d40a5f12d0e43271ca16571da23cc"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum-3.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "5eb5c6a02e27457ac651738545fcde005c4f7e107539a2d7a1635ae739e141b0",
+        "size_in_bytes": 4541,
+        "sha256_in_prefix": "5eb5c6a02e27457ac651738545fcde005c4f7e107539a2d7a1635ae739e141b0"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum-3.4.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum-3.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "41c708c5adba6e097513ab8ccb9f1d7865a2fb469e22491a9e01dcc64da459fc",
+        "size_in_bytes": 87,
+        "sha256_in_prefix": "41c708c5adba6e097513ab8ccb9f1d7865a2fb469e22491a9e01dcc64da459fc"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum-3.4.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "6d011ee8042c1e055c2832d5d82992328b3c81c6b4aadad72489c742d41b06e9",
+        "size_in_bytes": 100,
+        "sha256_in_prefix": "6d011ee8042c1e055c2832d5d82992328b3c81c6b4aadad72489c742d41b06e9"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum-3.4.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "7b26691a7c8ee48af425a53cbaeaabc9aa3a84ea2e93fe47a1ecc550c1de76db",
+        "size_in_bytes": 1080,
+        "sha256_in_prefix": "7b26691a7c8ee48af425a53cbaeaabc9aa3a84ea2e93fe47a1ecc550c1de76db"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2cf20f5a8f5882526953bb28124f167bf00f76cbd95f8a790df0f35e66c2ddff",
+        "size_in_bytes": 834,
+        "sha256_in_prefix": "2cf20f5a8f5882526953bb28124f167bf00f76cbd95f8a790df0f35e66c2ddff"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a48feeedb1835fe0a7254c42ae5b39c892129a11167a803aa0be5e401c356529",
+        "size_in_bytes": 1059,
+        "sha256_in_prefix": "a48feeedb1835fe0a7254c42ae5b39c892129a11167a803aa0be5e401c356529"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "abccdf48ef0ce8003b2bb70e0e9b5118c4c0d3e222b700f4451fc5b6d4a7d893",
+        "size_in_bytes": 591,
+        "sha256_in_prefix": "abccdf48ef0ce8003b2bb70e0e9b5118c4c0d3e222b700f4451fc5b6d4a7d893"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/blas.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e1ee9e0c6d995cc39a0a17837e49a1a508579d083738378909e5ee485c9f584",
+        "size_in_bytes": 3244,
+        "sha256_in_prefix": "6e1ee9e0c6d995cc39a0a17837e49a1a508579d083738378909e5ee485c9f584"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/contract.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "06bd4fc76ca7e61ca2530cadfdfaef4043811ed67e34e73a73a5e26908177708",
+        "size_in_bytes": 43143,
+        "sha256_in_prefix": "06bd4fc76ca7e61ca2530cadfdfaef4043811ed67e34e73a73a5e26908177708"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/helpers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fb28108c85a6ff915a96776f157354839781a63372e2be56f1a34e8b34dc087",
+        "size_in_bytes": 5341,
+        "sha256_in_prefix": "5fb28108c85a6ff915a96776f157354839781a63372e2be56f1a34e8b34dc087"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/parser.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "05847f6ca2c27791b0b7311c4e54b63a2e21b1bc3f80e896e83c6f194655718b",
+        "size_in_bytes": 16661,
+        "sha256_in_prefix": "05847f6ca2c27791b0b7311c4e54b63a2e21b1bc3f80e896e83c6f194655718b"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/path_random.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6b69ce143aa9f1b5abfb0f761fb0d011b5dff780d714f3ee2d486761a6745cdb",
+        "size_in_bytes": 17447,
+        "sha256_in_prefix": "6b69ce143aa9f1b5abfb0f761fb0d011b5dff780d714f3ee2d486761a6745cdb"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/paths.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e1a019e7bd816ae5fc956dfbc328015e504f568a054993be0c4910cde99683c",
+        "size_in_bytes": 55473,
+        "sha256_in_prefix": "1e1a019e7bd816ae5fc956dfbc328015e504f568a054993be0c4910cde99683c"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/sharing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "55aa08e040d8ccdbfedac150d64c090e357066b50134b5a5d0845545d3a16566",
+        "size_in_bytes": 10166,
+        "sha256_in_prefix": "55aa08e040d8ccdbfedac150d64c090e357066b50134b5a5d0845545d3a16566"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/testing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "13339ce1d6d4e85b8a9aab3c42a87e4c8edb7094c64a4a11f14eaeb7d9b53926",
+        "size_in_bytes": 8452,
+        "sha256_in_prefix": "13339ce1d6d4e85b8a9aab3c42a87e4c8edb7094c64a4a11f14eaeb7d9b53926"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/__pycache__/typing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1b67c50a62070ad98d3f7992e2ea2f6773d336a646685dbb9e4db8e46ad4181",
+        "size_in_bytes": 1174,
+        "sha256_in_prefix": "e1b67c50a62070ad98d3f7992e2ea2f6773d336a646685dbb9e4db8e46ad4181"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/_version.py",
+        "path_type": "hardlink",
+        "sha256": "bf13ce47efcd73fd9b8c6842b1b9118e121e2505ea7294acf277a9ce51d4a5b5",
+        "size_in_bytes": 544,
+        "sha256_in_prefix": "bf13ce47efcd73fd9b8c6842b1b9118e121e2505ea7294acf277a9ce51d4a5b5"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6c402c204448e00813c042b1c3319014369b36722a8aa1a92647a71a6e26490c",
+        "size_in_bytes": 614,
+        "sha256_in_prefix": "6c402c204448e00813c042b1c3319014369b36722a8aa1a92647a71a6e26490c"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "10af1de2937611cf9f4eddfba388bd6e4bdc2f26562cb5fb409a185aa0870d4b",
+        "size_in_bytes": 716,
+        "sha256_in_prefix": "10af1de2937611cf9f4eddfba388bd6e4bdc2f26562cb5fb409a185aa0870d4b"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/cupy.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ea9a63bf7760a31f21f3fc61fcb7b419be4d6faa5892a427c241f066f50b7dea",
+        "size_in_bytes": 1586,
+        "sha256_in_prefix": "ea9a63bf7760a31f21f3fc61fcb7b419be4d6faa5892a427c241f066f50b7dea"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/dispatch.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "702f781fadac24f30746b76301e6a51f6d336a8754d70287d60cff13e1e9baab",
+        "size_in_bytes": 5385,
+        "sha256_in_prefix": "702f781fadac24f30746b76301e6a51f6d336a8754d70287d60cff13e1e9baab"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/jax.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "b8c15dc9de394b65b7271dece93f5d647d06e6229ffa95d80fb45114f57415de",
+        "size_in_bytes": 1767,
+        "sha256_in_prefix": "b8c15dc9de394b65b7271dece93f5d647d06e6229ffa95d80fb45114f57415de"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/object_arrays.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9665fafa1121e3101e17e65bd4c9c835ddc65edd82e54543dcbc7fff2c39c909",
+        "size_in_bytes": 4153,
+        "sha256_in_prefix": "9665fafa1121e3101e17e65bd4c9c835ddc65edd82e54543dcbc7fff2c39c909"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/tensorflow.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "82b2f6205af530141d386497cee61b8f5c7db0b3935a84c6569966ff6f045d7c",
+        "size_in_bytes": 5443,
+        "sha256_in_prefix": "82b2f6205af530141d386497cee61b8f5c7db0b3935a84c6569966ff6f045d7c"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/theano.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a4d8c0e9920b30f0faedc66eb7b527bc0116abe41c83fa669de7691dba823509",
+        "size_in_bytes": 2646,
+        "sha256_in_prefix": "a4d8c0e9920b30f0faedc66eb7b527bc0116abe41c83fa669de7691dba823509"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/__pycache__/torch.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "03bdbedba315c67b45b7e4f04ccad6da3fe8eb137b4c6fee19693bbf08225e28",
+        "size_in_bytes": 4665,
+        "sha256_in_prefix": "03bdbedba315c67b45b7e4f04ccad6da3fe8eb137b4c6fee19693bbf08225e28"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/cupy.py",
+        "path_type": "hardlink",
+        "sha256": "85af65d646712fce333ad00082fe22748e7042ff5ad473a59da74c55ccbce798",
+        "size_in_bytes": 950,
+        "sha256_in_prefix": "85af65d646712fce333ad00082fe22748e7042ff5ad473a59da74c55ccbce798"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/dispatch.py",
+        "path_type": "hardlink",
+        "sha256": "311ffca734f48bd1ddc0a9fe7a4948938dec78b5106e7bd633da2d178253bada",
+        "size_in_bytes": 4887,
+        "sha256_in_prefix": "311ffca734f48bd1ddc0a9fe7a4948938dec78b5106e7bd633da2d178253bada"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/jax.py",
+        "path_type": "hardlink",
+        "sha256": "e1816e706e77b51f90af36ca3bf378ef29f629cd713e9ffd8cb8d9214fe54547",
+        "size_in_bytes": 1085,
+        "sha256_in_prefix": "e1816e706e77b51f90af36ca3bf378ef29f629cd713e9ffd8cb8d9214fe54547"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/object_arrays.py",
+        "path_type": "hardlink",
+        "sha256": "5bdd60e877f00c01c5006f2722c2ec8c9032ef952e067a3d00c7926fcc1817ed",
+        "size_in_bytes": 2016,
+        "sha256_in_prefix": "5bdd60e877f00c01c5006f2722c2ec8c9032ef952e067a3d00c7926fcc1817ed"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/tensorflow.py",
+        "path_type": "hardlink",
+        "sha256": "3a06cba631b20f178551c623254a1515bf1b4b28a10e33ccd24515eae1278890",
+        "size_in_bytes": 3891,
+        "sha256_in_prefix": "3a06cba631b20f178551c623254a1515bf1b4b28a10e33ccd24515eae1278890"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/theano.py",
+        "path_type": "hardlink",
+        "sha256": "7c125a2f614e9f1f7f07b8ece28d205f2de0e9dcce76bfdf4fd92a5e44820893",
+        "size_in_bytes": 1698,
+        "sha256_in_prefix": "7c125a2f614e9f1f7f07b8ece28d205f2de0e9dcce76bfdf4fd92a5e44820893"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/backends/torch.py",
+        "path_type": "hardlink",
+        "sha256": "defd74df75bc5f28c8e0e22a08cbc9299b123f5c4a1d1fbcfbf44945755402f2",
+        "size_in_bytes": 3583,
+        "sha256_in_prefix": "defd74df75bc5f28c8e0e22a08cbc9299b123f5c4a1d1fbcfbf44945755402f2"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/blas.py",
+        "path_type": "hardlink",
+        "sha256": "b27de47af75380deb1614c4ba3440142a5d9e3bb5460042030478726dd0637f7",
+        "size_in_bytes": 3500,
+        "sha256_in_prefix": "b27de47af75380deb1614c4ba3440142a5d9e3bb5460042030478726dd0637f7"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/contract.py",
+        "path_type": "hardlink",
+        "sha256": "a42ad5ed83e0903ee9458d0a8973986c6bb2c12098f9c60ccb28f9ec7af9f0f2",
+        "size_in_bytes": 40341,
+        "sha256_in_prefix": "a42ad5ed83e0903ee9458d0a8973986c6bb2c12098f9c60ccb28f9ec7af9f0f2"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/helpers.py",
+        "path_type": "hardlink",
+        "sha256": "6353c7c4112ee3d0444ad9729b7bbc6a4f31537c9cc0156ee0250567baa2c000",
+        "size_in_bytes": 4270,
+        "sha256_in_prefix": "6353c7c4112ee3d0444ad9729b7bbc6a4f31537c9cc0156ee0250567baa2c000"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/parser.py",
+        "path_type": "hardlink",
+        "sha256": "3e850917962d6254be0b9dc21fbe1ec1727aa656bb2968a79d2aa33a7050b585",
+        "size_in_bytes": 13269,
+        "sha256_in_prefix": "3e850917962d6254be0b9dc21fbe1ec1727aa656bb2968a79d2aa33a7050b585"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/path_random.py",
+        "path_type": "hardlink",
+        "sha256": "daf904da8b215171e55ba82dabc6dc9df95f55f1d56b105262f900f704c3bd42",
+        "size_in_bytes": 14356,
+        "sha256_in_prefix": "daf904da8b215171e55ba82dabc6dc9df95f55f1d56b105262f900f704c3bd42"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/paths.py",
+        "path_type": "hardlink",
+        "sha256": "c6abee06b5d7ed7c1edb60fb2f53a6854b7c5949a087864576f4913f05cccccc",
+        "size_in_bytes": 51711,
+        "sha256_in_prefix": "c6abee06b5d7ed7c1edb60fb2f53a6854b7c5949a087864576f4913f05cccccc"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/sharing.py",
+        "path_type": "hardlink",
+        "sha256": "3ef5a1379f5796fb4a6d023ace260ae6585ad874c8bcfcf2a735319318b9907c",
+        "size_in_bytes": 6914,
+        "sha256_in_prefix": "3ef5a1379f5796fb4a6d023ace260ae6585ad874c8bcfcf2a735319318b9907c"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/testing.py",
+        "path_type": "hardlink",
+        "sha256": "31825c475aab132a889174527486a5a6ee41e77712011e7d51edbe24c9ec7c98",
+        "size_in_bytes": 6352,
+        "sha256_in_prefix": "31825c475aab132a889174527486a5a6ee41e77712011e7d51edbe24c9ec7c98"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ba067ababb7ebec27a22faa8a417ba5faf06de5da22418d7104370e65e04fdae",
+        "size_in_bytes": 143,
+        "sha256_in_prefix": "ba067ababb7ebec27a22faa8a417ba5faf06de5da22418d7104370e65e04fdae"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_backends.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "358d68a58c4f5ded8e37d8d75d2d01a260c85bb7d249d5550b6bd45a8c8f095a",
+        "size_in_bytes": 27620,
+        "sha256_in_prefix": "358d68a58c4f5ded8e37d8d75d2d01a260c85bb7d249d5550b6bd45a8c8f095a"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_blas.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e6af5d075c4c5f5ddbbb0eacb400d5f702a219ed55c73a8f8f9a38958f643fc",
+        "size_in_bytes": 4416,
+        "sha256_in_prefix": "8e6af5d075c4c5f5ddbbb0eacb400d5f702a219ed55c73a8f8f9a38958f643fc"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_contract.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a2dbf8871f13fb3189ea41fe8e9f94303278c39cd30ee6cdedb0035cf5d183a2",
+        "size_in_bytes": 12730,
+        "sha256_in_prefix": "a2dbf8871f13fb3189ea41fe8e9f94303278c39cd30ee6cdedb0035cf5d183a2"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_edge_cases.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e5bde83063201342a5b8223fb4938468c29074d0782ea5aab14fd3faea9a27b2",
+        "size_in_bytes": 9310,
+        "sha256_in_prefix": "e5bde83063201342a5b8223fb4938468c29074d0782ea5aab14fd3faea9a27b2"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_input.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e1819725dbe7ab65d49c59a40d6ed16d53063f56f67cb59b87b289d25d69c548",
+        "size_in_bytes": 14453,
+        "sha256_in_prefix": "e1819725dbe7ab65d49c59a40d6ed16d53063f56f67cb59b87b289d25d69c548"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_parser.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "4a02da8d5fd1534dc08975a989d9ea11062fa48ca252e812b479f8d16244f166",
+        "size_in_bytes": 3123,
+        "sha256_in_prefix": "4a02da8d5fd1534dc08975a989d9ea11062fa48ca252e812b479f8d16244f166"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_paths.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9546cae8c70e80121771381731c7b2f4373ae13b6dbf9c75ce177d4a209288ae",
+        "size_in_bytes": 29995,
+        "sha256_in_prefix": "9546cae8c70e80121771381731c7b2f4373ae13b6dbf9c75ce177d4a209288ae"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/__pycache__/test_sharing.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "27b20568c2259d376e8f367fa323ee3061674769d97eac4cfa762469c692a664",
+        "size_in_bytes": 23119,
+        "sha256_in_prefix": "27b20568c2259d376e8f367fa323ee3061674769d97eac4cfa762469c692a664"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_backends.py",
+        "path_type": "hardlink",
+        "sha256": "5dc2fa89f5789b153354072a83461ac62ddf63e2e1bc35c7d9c6a23d54e690a4",
+        "size_in_bytes": 15562,
+        "sha256_in_prefix": "5dc2fa89f5789b153354072a83461ac62ddf63e2e1bc35c7d9c6a23d54e690a4"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_blas.py",
+        "path_type": "hardlink",
+        "sha256": "af9f7c42d902c6a5c893ddde650befa160cc336aa0b16638853f7f880af253ba",
+        "size_in_bytes": 3590,
+        "sha256_in_prefix": "af9f7c42d902c6a5c893ddde650befa160cc336aa0b16638853f7f880af253ba"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_contract.py",
+        "path_type": "hardlink",
+        "sha256": "1ad8b41ab11675483e0d20abd814d936060c1c3720e457579a98e9b3de486261",
+        "size_in_bytes": 8589,
+        "sha256_in_prefix": "1ad8b41ab11675483e0d20abd814d936060c1c3720e457579a98e9b3de486261"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_edge_cases.py",
+        "path_type": "hardlink",
+        "sha256": "db330d30add8a8e84463142ef77eea93f72c2b1502644cc45de5bf7dd7227994",
+        "size_in_bytes": 5283,
+        "sha256_in_prefix": "db330d30add8a8e84463142ef77eea93f72c2b1502644cc45de5bf7dd7227994"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_input.py",
+        "path_type": "hardlink",
+        "sha256": "2a55a8ed249f16cab299e4d5a544363ec3ea6c8b9d71c9a416c39210b34daa62",
+        "size_in_bytes": 8275,
+        "sha256_in_prefix": "2a55a8ed249f16cab299e4d5a544363ec3ea6c8b9d71c9a416c39210b34daa62"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_parser.py",
+        "path_type": "hardlink",
+        "sha256": "b74a2a05f3c41ee5448901dc8c924361e4f08b0994545f95b37a608bd32ef13f",
+        "size_in_bytes": 2085,
+        "sha256_in_prefix": "b74a2a05f3c41ee5448901dc8c924361e4f08b0994545f95b37a608bd32ef13f"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_paths.py",
+        "path_type": "hardlink",
+        "sha256": "69228f2600010a37346d7efa746c15a08c0f1ca32bfbf8890f76f2df08857441",
+        "size_in_bytes": 19461,
+        "sha256_in_prefix": "69228f2600010a37346d7efa746c15a08c0f1ca32bfbf8890f76f2df08857441"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/tests/test_sharing.py",
+        "path_type": "hardlink",
+        "sha256": "863dcf0716ea5bc4d8ceec4d82876981b3ef8f79b007db82c9c4f2c506dd79fe",
+        "size_in_bytes": 13125,
+        "sha256_in_prefix": "863dcf0716ea5bc4d8ceec4d82876981b3ef8f79b007db82c9c4f2c506dd79fe"
+      },
+      {
+        "_path": "Lib/site-packages/opt_einsum/typing.py",
+        "path_type": "hardlink",
+        "sha256": "06c73e98209e829811491b8c011b781777cf96109186f820e5119a20d62e551d",
+        "size_in_bytes": 937,
+        "sha256_in_prefix": "06c73e98209e829811491b8c011b781777cf96109186f820e5119a20d62e551d"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\opt_einsum-3.4.0-py312haa95532_0",
+    "type": 1
+  }
+}

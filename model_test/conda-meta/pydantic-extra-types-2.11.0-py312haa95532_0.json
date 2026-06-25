@@ -1,0 +1,494 @@
+{
+  "name": "pydantic-extra-types",
+  "version": "2.11.0",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "pydantic-extra-types-2.11.0-py312haa95532_0.conda",
+  "md5": "526857b085332cd7acdb7ad8f0472f44",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pydantic-extra-types-2.11.0-py312haa95532_0.conda",
+  "sha256": "0c1500840cc83f3381198448bd44f301abb6dea611cfebb01095fe7951cd8ecd",
+  "depends": [
+    "pydantic >=2.5.2",
+    "python >=3.12,<3.13.0a0",
+    "typing_extensions"
+  ],
+  "constrains": [
+    "phonenumbers >=8,<10",
+    "python-ulid >=1,<4",
+    "pymongo >=4.0.0,<5.0.0",
+    "pendulum >=3.0.0,<4.0.0",
+    "python-tzdata >=2024.1",
+    "pycountry >=23",
+    "tzdata >=2024.1",
+    "pytz >=2024.1",
+    "cron-converter >=1.2.2",
+    "semver >=3.0.2,<3.1.0"
+  ],
+  "license": "MIT",
+  "timestamp": 1768308534000,
+  "size": 158921,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\pydantic-extra-types-2.11.0-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\pydantic-extra-types-2.11.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/INSTALLER",
+    "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/METADATA",
+    "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/RECORD",
+    "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/REQUESTED",
+    "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/WHEEL",
+    "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/direct_url.json",
+    "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/pydantic_extra_types/__init__.py",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/color.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/coordinate.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/country.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/cron.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/currency_code.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/domain.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/epoch.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/isbn.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/language_code.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/mac_address.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/mime_types.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/mongo_object_id.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/path.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/payment.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/pendulum_dt.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/phone_numbers.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/routing_number.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/s3.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/script_code.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/semantic_version.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/semver.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/timezone_name.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/__pycache__/ulid.cpython-312.pyc",
+    "Lib/site-packages/pydantic_extra_types/color.py",
+    "Lib/site-packages/pydantic_extra_types/coordinate.py",
+    "Lib/site-packages/pydantic_extra_types/country.py",
+    "Lib/site-packages/pydantic_extra_types/cron.py",
+    "Lib/site-packages/pydantic_extra_types/currency_code.py",
+    "Lib/site-packages/pydantic_extra_types/domain.py",
+    "Lib/site-packages/pydantic_extra_types/epoch.py",
+    "Lib/site-packages/pydantic_extra_types/isbn.py",
+    "Lib/site-packages/pydantic_extra_types/language_code.py",
+    "Lib/site-packages/pydantic_extra_types/mac_address.py",
+    "Lib/site-packages/pydantic_extra_types/mime_types.py",
+    "Lib/site-packages/pydantic_extra_types/mongo_object_id.py",
+    "Lib/site-packages/pydantic_extra_types/path.py",
+    "Lib/site-packages/pydantic_extra_types/payment.py",
+    "Lib/site-packages/pydantic_extra_types/pendulum_dt.py",
+    "Lib/site-packages/pydantic_extra_types/phone_numbers.py",
+    "Lib/site-packages/pydantic_extra_types/py.typed",
+    "Lib/site-packages/pydantic_extra_types/routing_number.py",
+    "Lib/site-packages/pydantic_extra_types/s3.py",
+    "Lib/site-packages/pydantic_extra_types/script_code.py",
+    "Lib/site-packages/pydantic_extra_types/semantic_version.py",
+    "Lib/site-packages/pydantic_extra_types/semver.py",
+    "Lib/site-packages/pydantic_extra_types/timezone_name.py",
+    "Lib/site-packages/pydantic_extra_types/ulid.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "97c90af33d7e4f29f76404f78c8228bc56073c2055e134ed4062a13307f944d2",
+        "size_in_bytes": 3991,
+        "sha256_in_prefix": "97c90af33d7e4f29f76404f78c8228bc56073c2055e134ed4062a13307f944d2"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dda10e705c65dc62b80f4c78fe622a0b85dc292e6946162802456ad2d8d2d146",
+        "size_in_bytes": 4428,
+        "sha256_in_prefix": "dda10e705c65dc62b80f4c78fe622a0b85dc292e6946162802456ad2d8d2d146"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724",
+        "size_in_bytes": 87,
+        "sha256_in_prefix": "aad0b0a12256807936d52d4a6f88a1773236ae527564a688bab4e3fe780e8724"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "befd5120bf597f42bf803ea745af37030edcdfddd8ca780333db437032f1e3bf",
+        "size_in_bytes": 110,
+        "sha256_in_prefix": "befd5120bf597f42bf803ea745af37030edcdfddd8ca780333db437032f1e3bf"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types-2.11.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a09bbbbb46be63e89ef39a5a6f72d610da47b2a6b6ba0eef1442327f1cf23eeb",
+        "size_in_bytes": 1103,
+        "sha256_in_prefix": "a09bbbbb46be63e89ef39a5a6f72d610da47b2a6b6ba0eef1442327f1cf23eeb"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2042a0dd14dcd4524ae0b491e11fd1724ecec78d8709324dac6b8199934c7d82",
+        "size_in_bytes": 23,
+        "sha256_in_prefix": "2042a0dd14dcd4524ae0b491e11fd1724ecec78d8709324dac6b8199934c7d82"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c37ca5327adc101ae0b8e1a1ad6bee86c0d39b10026565fc061a7f58323ad89",
+        "size_in_bytes": 174,
+        "sha256_in_prefix": "2c37ca5327adc101ae0b8e1a1ad6bee86c0d39b10026565fc061a7f58323ad89"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/color.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e8bb4bd6dd66aa6b07f2b89e8a825593d7e1ef061c9bb7c2e96db59482cdfca",
+        "size_in_bytes": 29153,
+        "sha256_in_prefix": "8e8bb4bd6dd66aa6b07f2b89e8a825593d7e1ef061c9bb7c2e96db59482cdfca"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/coordinate.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "270538872b1269128c23f96b5dc2750f2e485b6a408b45a6d1312479c79dba9d",
+        "size_in_bytes": 10256,
+        "sha256_in_prefix": "270538872b1269128c23f96b5dc2750f2e485b6a408b45a6d1312479c79dba9d"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/country.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed73755143b8b79f221561a10f648a59b0f07ca0cb23cae7feeef3f7875fde06",
+        "size_in_bytes": 12188,
+        "sha256_in_prefix": "ed73755143b8b79f221561a10f648a59b0f07ca0cb23cae7feeef3f7875fde06"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/cron.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "bb0a0cd7de538e64801eac13e968c5f2a537758cdb3d4b6f9d31b5971290e438",
+        "size_in_bytes": 6421,
+        "sha256_in_prefix": "bb0a0cd7de538e64801eac13e968c5f2a537758cdb3d4b6f9d31b5971290e438"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/currency_code.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "23c915507918cb0a64c65c1d234c73836be46a0ae9643d7a337cafa8e2744b7a",
+        "size_in_bytes": 6944,
+        "sha256_in_prefix": "23c915507918cb0a64c65c1d234c73836be46a0ae9643d7a337cafa8e2744b7a"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/domain.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd6fcd5b883ed193e8b543786754dc96e5926a367827440d8e7d4e67248382c6",
+        "size_in_bytes": 3035,
+        "sha256_in_prefix": "fd6fcd5b883ed193e8b543786754dc96e5926a367827440d8e7d4e67248382c6"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/epoch.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d461ac044eada4d9a73d12c6afe42745bd72e9feff51c1893d8b79d1f9150082",
+        "size_in_bytes": 4542,
+        "sha256_in_prefix": "d461ac044eada4d9a73d12c6afe42745bd72e9feff51c1893d8b79d1f9150082"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/isbn.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "362fd4b0651cd3d1c966f3045b28341cd0c120f18e564607fa5a5f01ff6aac26",
+        "size_in_bytes": 6640,
+        "sha256_in_prefix": "362fd4b0651cd3d1c966f3045b28341cd0c120f18e564607fa5a5f01ff6aac26"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/language_code.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbbc86904c26b87ae180fcff63749a79604badac1df4954e7821efb36bd9eb58",
+        "size_in_bytes": 15272,
+        "sha256_in_prefix": "dbbc86904c26b87ae180fcff63749a79604badac1df4954e7821efb36bd9eb58"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/mac_address.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "18fe0b852472bbe5fba86ef90fb0b88d5be97d58e4d4a29072f3a878c10b399f",
+        "size_in_bytes": 4738,
+        "sha256_in_prefix": "18fe0b852472bbe5fba86ef90fb0b88d5be97d58e4d4a29072f3a878c10b399f"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/mime_types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8259a2aa66be723d7c5c57fd5705ecc848b39c1109563d0222ec372f0b2dd1ab",
+        "size_in_bytes": 167129,
+        "sha256_in_prefix": "8259a2aa66be723d7c5c57fd5705ecc848b39c1109563d0222ec372f0b2dd1ab"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/mongo_object_id.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e3d7c852122cb1eecb4eeb38f182f9b54cfa32e10e8451f1257b031d59e3d2a",
+        "size_in_bytes": 3293,
+        "sha256_in_prefix": "6e3d7c852122cb1eecb4eeb38f182f9b54cfa32e10e8451f1257b031d59e3d2a"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/path.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "908874a28286e9687b9132e50f13289cf59af347ccf46771929d3aa03d9fd2ec",
+        "size_in_bytes": 3261,
+        "sha256_in_prefix": "908874a28286e9687b9132e50f13289cf59af347ccf46771929d3aa03d9fd2ec"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/payment.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "ce6573f2ba64bc30a8b645958362cc961e890456179b9617955bfc9b9026cb84",
+        "size_in_bytes": 9655,
+        "sha256_in_prefix": "ce6573f2ba64bc30a8b645958362cc961e890456179b9617955bfc9b9026cb84"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/pendulum_dt.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c7416a7c21028ae1db1adec1fa60491c0b6dc7a5f4666043d00d5773aff57278",
+        "size_in_bytes": 14674,
+        "sha256_in_prefix": "c7416a7c21028ae1db1adec1fa60491c0b6dc7a5f4666043d00d5773aff57278"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/phone_numbers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2074c10369301b59bb0c4b6df31ff5d22fc32c863100c816001b6ce45734b7a",
+        "size_in_bytes": 10537,
+        "sha256_in_prefix": "d2074c10369301b59bb0c4b6df31ff5d22fc32c863100c816001b6ce45734b7a"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/routing_number.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "87eba59c18d89ff70137b84721375652c245b41dd5747910ff802d40e6ebaba6",
+        "size_in_bytes": 4516,
+        "sha256_in_prefix": "87eba59c18d89ff70137b84721375652c245b41dd5747910ff802d40e6ebaba6"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/s3.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "65654307591d198f75c2958e6d0cc67a51a553cb22965e8f1c2443da1d31f5ad",
+        "size_in_bytes": 3353,
+        "sha256_in_prefix": "65654307591d198f75c2958e6d0cc67a51a553cb22965e8f1c2443da1d31f5ad"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/script_code.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "dfcc762a7a42d52c9985bdd9abc2e114cbe3af3a3c9b5fbdddd61bad9179a10b",
+        "size_in_bytes": 3958,
+        "sha256_in_prefix": "dfcc762a7a42d52c9985bdd9abc2e114cbe3af3a3c9b5fbdddd61bad9179a10b"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/semantic_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd66e7039d2c63eb922d6b61c04364d1a4efeee83a6a3af7c1d51e12f7e69343",
+        "size_in_bytes": 3339,
+        "sha256_in_prefix": "fd66e7039d2c63eb922d6b61c04364d1a4efeee83a6a3af7c1d51e12f7e69343"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/semver.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "c69bd24d0b3fbb84f59b15a1a78f6aee218ccfd1b31805d59b7c842524a8e46f",
+        "size_in_bytes": 3272,
+        "sha256_in_prefix": "c69bd24d0b3fbb84f59b15a1a78f6aee218ccfd1b31805d59b7c842524a8e46f"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/timezone_name.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d0d105a2d8d9223e79bb2d5879bd019c080027054c6f1d125d8480b3d748b6e9",
+        "size_in_bytes": 8220,
+        "sha256_in_prefix": "d0d105a2d8d9223e79bb2d5879bd019c080027054c6f1d125d8480b3d748b6e9"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/__pycache__/ulid.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "3623cfa899071098b19233d6150e98de4fcaa791acd501e34fa10215376d8021",
+        "size_in_bytes": 3447,
+        "sha256_in_prefix": "3623cfa899071098b19233d6150e98de4fcaa791acd501e34fa10215376d8021"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/color.py",
+        "path_type": "hardlink",
+        "sha256": "419156b74481b823c6f579e58f0c1fe94c3887d8aa220b8d6c9487040af36fde",
+        "size_in_bytes": 20855,
+        "sha256_in_prefix": "419156b74481b823c6f579e58f0c1fe94c3887d8aa220b8d6c9487040af36fde"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/coordinate.py",
+        "path_type": "hardlink",
+        "sha256": "b824ce8a23e480f74dddbecc637f7de3a8304f4ca7d783b0cc2b4b41472c147c",
+        "size_in_bytes": 7717,
+        "sha256_in_prefix": "b824ce8a23e480f74dddbecc637f7de3a8304f4ca7d783b0cc2b4b41472c147c"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/country.py",
+        "path_type": "hardlink",
+        "sha256": "18f103433695ee40daa9e1bc94ce620fadfdd10c5eb5c539de2ef977bcb23fbc",
+        "size_in_bytes": 9011,
+        "sha256_in_prefix": "18f103433695ee40daa9e1bc94ce620fadfdd10c5eb5c539de2ef977bcb23fbc"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/cron.py",
+        "path_type": "hardlink",
+        "sha256": "cc104cad981e4426e67a19905e1b73ca9ddf121480608f004aa6df6e1e677f89",
+        "size_in_bytes": 4851,
+        "sha256_in_prefix": "cc104cad981e4426e67a19905e1b73ca9ddf121480608f004aa6df6e1e677f89"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/currency_code.py",
+        "path_type": "hardlink",
+        "sha256": "bda0d362ea86dfe1292bfabd6ae25918a018308a955fa25af40a37df23bc3a33",
+        "size_in_bytes": 6218,
+        "sha256_in_prefix": "bda0d362ea86dfe1292bfabd6ae25918a018308a955fa25af40a37df23bc3a33"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/domain.py",
+        "path_type": "hardlink",
+        "sha256": "9978b48ee6b21f6dad1de5e68a712fd1d5bce643025bf6e737886442903929e7",
+        "size_in_bytes": 1978,
+        "sha256_in_prefix": "9978b48ee6b21f6dad1de5e68a712fd1d5bce643025bf6e737886442903929e7"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/epoch.py",
+        "path_type": "hardlink",
+        "sha256": "f45ce7ef45bfbdc89c5fd015d142cf08ef39424b5456a8bb6f6000cef16d1c61",
+        "size_in_bytes": 2710,
+        "sha256_in_prefix": "f45ce7ef45bfbdc89c5fd015d142cf08ef39424b5456a8bb6f6000cef16d1c61"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/isbn.py",
+        "path_type": "hardlink",
+        "sha256": "c8eba4b812be3c7cea06dee366f880d514b5b966977aaa7c72d46e2fe0474872",
+        "size_in_bytes": 4949,
+        "sha256_in_prefix": "c8eba4b812be3c7cea06dee366f880d514b5b966977aaa7c72d46e2fe0474872"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/language_code.py",
+        "path_type": "hardlink",
+        "sha256": "0c7da49e39f404bcf8f76b1b107fe5b488bf6c54eb5a8ffe49940354755e324f",
+        "size_in_bytes": 12273,
+        "sha256_in_prefix": "0c7da49e39f404bcf8f76b1b107fe5b488bf6c54eb5a8ffe49940354755e324f"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/mac_address.py",
+        "path_type": "hardlink",
+        "sha256": "d2f3010d2baadea51bc5a13a06bcb53b37ecfbbc54fb09735b98787fdea00436",
+        "size_in_bytes": 3589,
+        "sha256_in_prefix": "d2f3010d2baadea51bc5a13a06bcb53b37ecfbbc54fb09735b98787fdea00436"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/mime_types.py",
+        "path_type": "hardlink",
+        "sha256": "fc14523bb7105fd6feff9586217489ef393479500110d06a6f82715ac08de3e6",
+        "size_in_bytes": 151665,
+        "sha256_in_prefix": "fc14523bb7105fd6feff9586217489ef393479500110d06a6f82715ac08de3e6"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/mongo_object_id.py",
+        "path_type": "hardlink",
+        "sha256": "c9f3a3cd3bc281718ee15bca92c3dc3d1031f2916f86634a6779955f149c1605",
+        "size_in_bytes": 2274,
+        "sha256_in_prefix": "c9f3a3cd3bc281718ee15bca92c3dc3d1031f2916f86634a6779955f149c1605"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/path.py",
+        "path_type": "hardlink",
+        "sha256": "adc98ac9e6c321a89a294eec47592425c690eca0e957fe245103b4e25cf2b318",
+        "size_in_bytes": 2049,
+        "sha256_in_prefix": "adc98ac9e6c321a89a294eec47592425c690eca0e957fe245103b4e25cf2b318"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/payment.py",
+        "path_type": "hardlink",
+        "sha256": "852535faf14bdfe79f08ea06fddbb827a648f1bae383ce54311b3c57c2c6a285",
+        "size_in_bytes": 7397,
+        "sha256_in_prefix": "852535faf14bdfe79f08ea06fddbb827a648f1bae383ce54311b3c57c2c6a285"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/pendulum_dt.py",
+        "path_type": "hardlink",
+        "sha256": "40719495cd5fabf64bdf07a94ff650db895aa0a3f280de8338d59ce45937d90f",
+        "size_in_bytes": 12937,
+        "sha256_in_prefix": "40719495cd5fabf64bdf07a94ff650db895aa0a3f280de8338d59ce45937d90f"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/phone_numbers.py",
+        "path_type": "hardlink",
+        "sha256": "c26116fc5ec95e3873f25f03501d3faa2ce91508f035f932164d26f2b788f70b",
+        "size_in_bytes": 8573,
+        "sha256_in_prefix": "c26116fc5ec95e3873f25f03501d3faa2ce91508f035f932164d26f2b788f70b"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/routing_number.py",
+        "path_type": "hardlink",
+        "sha256": "4a4ae2c5768fe0a3dd666253f13381f8faf95031ca3cf4102093d2f0b90ce141",
+        "size_in_bytes": 3077,
+        "sha256_in_prefix": "4a4ae2c5768fe0a3dd666253f13381f8faf95031ca3cf4102093d2f0b90ce141"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/s3.py",
+        "path_type": "hardlink",
+        "sha256": "ba59bf591c1495ab97598117bf0719740fa0728e9d90b9dcb82fd5c73636b3bb",
+        "size_in_bytes": 2064,
+        "sha256_in_prefix": "ba59bf591c1495ab97598117bf0719740fa0728e9d90b9dcb82fd5c73636b3bb"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/script_code.py",
+        "path_type": "hardlink",
+        "sha256": "ef474a9f2695535b90ab2801b14e60804a5bc05e785c4603d4ee14cdf430416b",
+        "size_in_bytes": 2967,
+        "sha256_in_prefix": "ef474a9f2695535b90ab2801b14e60804a5bc05e785c4603d4ee14cdf430416b"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/semantic_version.py",
+        "path_type": "hardlink",
+        "sha256": "3f83caac722c3589e5f09f63fae074e915297297e90ae52fcb617b6806396d17",
+        "size_in_bytes": 2156,
+        "sha256_in_prefix": "3f83caac722c3589e5f09f63fae074e915297297e90ae52fcb617b6806396d17"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/semver.py",
+        "path_type": "hardlink",
+        "sha256": "8cefc54d769f1315c711f52a0eaf0c6bf1d0f89a782402d5d72a9c8aa0e1189d",
+        "size_in_bytes": 2192,
+        "sha256_in_prefix": "8cefc54d769f1315c711f52a0eaf0c6bf1d0f89a782402d5d72a9c8aa0e1189d"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/timezone_name.py",
+        "path_type": "hardlink",
+        "sha256": "55cacd24240e3458cbc273808b53b0a86c6270001f7b5781f32500e88d35a8d0",
+        "size_in_bytes": 6111,
+        "sha256_in_prefix": "55cacd24240e3458cbc273808b53b0a86c6270001f7b5781f32500e88d35a8d0"
+      },
+      {
+        "_path": "Lib/site-packages/pydantic_extra_types/ulid.py",
+        "path_type": "hardlink",
+        "sha256": "38304999e438a38dfa972e5df3215648be9ced96d243c3fc9095eb87c1ef548f",
+        "size_in_bytes": 2418,
+        "sha256_in_prefix": "38304999e438a38dfa972e5df3215648be9ced96d243c3fc9095eb87c1ef548f"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\pydantic-extra-types-2.11.0-py312haa95532_0",
+    "type": 1
+  }
+}

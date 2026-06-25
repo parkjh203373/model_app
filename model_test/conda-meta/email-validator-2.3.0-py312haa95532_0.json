@@ -1,0 +1,275 @@
+{
+  "name": "email-validator",
+  "version": "2.3.0",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "email-validator-2.3.0-py312haa95532_0.conda",
+  "md5": "300a25ebc0523a20621768f771c03dd4",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/email-validator-2.3.0-py312haa95532_0.conda",
+  "sha256": "8169999b73efafeb6cd371b3623b9b6a0556a8dbe3c6ff8f7fa3149222c96bf7",
+  "depends": [
+    "dnspython >=2.0.0",
+    "idna >=2.0.0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "constrains": [],
+  "license": "Unlicense",
+  "timestamp": 1758610395000,
+  "size": 90444,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\email-validator-2.3.0-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\email-validator-2.3.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/email_validator-2.3.0.dist-info/INSTALLER",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/METADATA",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/RECORD",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/REQUESTED",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/WHEEL",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/direct_url.json",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/entry_points.txt",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/email_validator-2.3.0.dist-info/top_level.txt",
+    "Lib/site-packages/email_validator/__init__.py",
+    "Lib/site-packages/email_validator/__main__.py",
+    "Lib/site-packages/email_validator/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/deliverability.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/exceptions.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/rfc_constants.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/syntax.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/types.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/validate_email.cpython-312.pyc",
+    "Lib/site-packages/email_validator/__pycache__/version.cpython-312.pyc",
+    "Lib/site-packages/email_validator/deliverability.py",
+    "Lib/site-packages/email_validator/exceptions.py",
+    "Lib/site-packages/email_validator/py.typed",
+    "Lib/site-packages/email_validator/rfc_constants.py",
+    "Lib/site-packages/email_validator/syntax.py",
+    "Lib/site-packages/email_validator/types.py",
+    "Lib/site-packages/email_validator/validate_email.py",
+    "Lib/site-packages/email_validator/version.py",
+    "Scripts/email_validator-script.py",
+    "Scripts/email_validator.exe"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a3e0513b6376e5b9c1e4535b457a643a332b26f7bdf04249e52293949409c34f",
+        "size_in_bytes": 26472,
+        "sha256_in_prefix": "a3e0513b6376e5b9c1e4535b457a643a332b26f7bdf04249e52293949409c34f"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fd6a7130727fd6325d7578f634ebb756d2b2e1f3c2bcae014824cb6651cfcb26",
+        "size_in_bytes": 2305,
+        "sha256_in_prefix": "fd6a7130727fd6325d7578f634ebb756d2b2e1f3c2bcae014824cb6651cfcb26"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "c42b93fc62c2e45ca4ff9687921eea391d731681e9b7ce6abdf79cae21cda099",
+        "size_in_bytes": 98,
+        "sha256_in_prefix": "c42b93fc62c2e45ca4ff9687921eea391d731681e9b7ce6abdf79cae21cda099"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "cd133fe9b3485121d36cdc79bba3379cad4c020bafaf2adcf612020ba1f2ac18",
+        "size_in_bytes": 66,
+        "sha256_in_prefix": "cd133fe9b3485121d36cdc79bba3379cad4c020bafaf2adcf612020ba1f2ac18"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "672179752e109134a3fb2bdd0780b29fdb7a03974f0f586a13aead5129562d4c",
+        "size_in_bytes": 1212,
+        "sha256_in_prefix": "672179752e109134a3fb2bdd0780b29fdb7a03974f0f586a13aead5129562d4c"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator-2.3.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7d80ce49615991ee3abaded6a9d3802638e19693d801a3b03b022c877b3ca162",
+        "size_in_bytes": 16,
+        "sha256_in_prefix": "7d80ce49615991ee3abaded6a9d3802638e19693d801a3b03b022c877b3ca162"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "837a150467571890138019d5aade50ee95215ccf50ae63a5e6a592bbf46d5a64",
+        "size_in_bytes": 4381,
+        "sha256_in_prefix": "837a150467571890138019d5aade50ee95215ccf50ae63a5e6a592bbf46d5a64"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "b9cea2d843022baedc0a0707af96451b92ea077921963991ee534061919250a6",
+        "size_in_bytes": 2302,
+        "sha256_in_prefix": "b9cea2d843022baedc0a0707af96451b92ea077921963991ee534061919250a6"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8eb305a631f0b2f0f787e4d38793deb931172817d9c109a4a8a275a1e4c8cb9",
+        "size_in_bytes": 1121,
+        "sha256_in_prefix": "f8eb305a631f0b2f0f787e4d38793deb931172817d9c109a4a8a275a1e4c8cb9"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/__main__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "e4b3770562f2f5c69766bfcdc11e274b1a70acc31cf9b943341f69e34c31d27d",
+        "size_in_bytes": 2221,
+        "sha256_in_prefix": "e4b3770562f2f5c69766bfcdc11e274b1a70acc31cf9b943341f69e34c31d27d"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/deliverability.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "0066a8438a7f2919f826e477afe96aaac57a4a58dc950a4d3293a097ced39c43",
+        "size_in_bytes": 5925,
+        "sha256_in_prefix": "0066a8438a7f2919f826e477afe96aaac57a4a58dc950a4d3293a097ced39c43"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/exceptions.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "43a3ba6b6d6b7fd9afabc0c738dcca8aec07fd89e2f101a3baf8fde41ae8ca95",
+        "size_in_bytes": 926,
+        "sha256_in_prefix": "43a3ba6b6d6b7fd9afabc0c738dcca8aec07fd89e2f101a3baf8fde41ae8ca95"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/rfc_constants.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "716202ee309de4bae213139538ff15a3e1ed7a2aaab0d3dae71030a52b2c605f",
+        "size_in_bytes": 1623,
+        "sha256_in_prefix": "716202ee309de4bae213139538ff15a3e1ed7a2aaab0d3dae71030a52b2c605f"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/syntax.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "340d33a59e763f729da1b57f4e08549f4b74b5e3e40ebe2f93ece01388376a88",
+        "size_in_bytes": 22889,
+        "sha256_in_prefix": "340d33a59e763f729da1b57f4e08549f4b74b5e3e40ebe2f93ece01388376a88"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "902f1d696f009ef61f7df8d5ac5d1b3fbad57aba0fe46dbb9f6c8b720e64801a",
+        "size_in_bytes": 5505,
+        "sha256_in_prefix": "902f1d696f009ef61f7df8d5ac5d1b3fbad57aba0fe46dbb9f6c8b720e64801a"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/validate_email.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "78cd92b7abaf4e4290043b6a899f2f455203f397a74f8fb7986bd1eb46613b25",
+        "size_in_bytes": 6165,
+        "sha256_in_prefix": "78cd92b7abaf4e4290043b6a899f2f455203f397a74f8fb7986bd1eb46613b25"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/__pycache__/version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "d5abbfaa29ad993d37e746add5fa1e1adbfab9505e45ec531ef52b329351248f",
+        "size_in_bytes": 167,
+        "sha256_in_prefix": "d5abbfaa29ad993d37e746add5fa1e1adbfab9505e45ec531ef52b329351248f"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/deliverability.py",
+        "path_type": "hardlink",
+        "sha256": "6488c592058ccf161ec5a9f02a1ad11cb4e78d632a951e5bd25b4e9e5034bbe1",
+        "size_in_bytes": 7216,
+        "sha256_in_prefix": "6488c592058ccf161ec5a9f02a1ad11cb4e78d632a951e5bd25b4e9e5034bbe1"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "472da3e4532911ef49b61993177cc5e691a059eafe42659cd66d2ccd7019edfa",
+        "size_in_bytes": 434,
+        "sha256_in_prefix": "472da3e4532911ef49b61993177cc5e691a059eafe42659cd66d2ccd7019edfa"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/rfc_constants.py",
+        "path_type": "hardlink",
+        "sha256": "2e15220592c1c3f367f8a1e41fefa7570396165833d9a0ae6ae8fdf194a5fa09",
+        "size_in_bytes": 3443,
+        "sha256_in_prefix": "2e15220592c1c3f367f8a1e41fefa7570396165833d9a0ae6ae8fdf194a5fa09"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/syntax.py",
+        "path_type": "hardlink",
+        "sha256": "a6eb9fb247881bafce4566fb7ef45d57f61cce69386e26cd64fb3d4e3584d4ad",
+        "size_in_bytes": 38971,
+        "sha256_in_prefix": "a6eb9fb247881bafce4566fb7ef45d57f61cce69386e26cd64fb3d4e3584d4ad"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/types.py",
+        "path_type": "hardlink",
+        "sha256": "9af9b037d477945c7d4eff70b56bc3cf17e2b7a9abff9c10998d88d078eea919",
+        "size_in_bytes": 5588,
+        "sha256_in_prefix": "9af9b037d477945c7d4eff70b56bc3cf17e2b7a9abff9c10998d88d078eea919"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/validate_email.py",
+        "path_type": "hardlink",
+        "sha256": "6e6add43d746b75f8c934af00d1ad7fa5eb16d8850d144b6d03cf8e806ad9e49",
+        "size_in_bytes": 9928,
+        "sha256_in_prefix": "6e6add43d746b75f8c934af00d1ad7fa5eb16d8850d144b6d03cf8e806ad9e49"
+      },
+      {
+        "_path": "Lib/site-packages/email_validator/version.py",
+        "path_type": "hardlink",
+        "sha256": "0a92bc207fdd09403083db6abfbce6f45c5b0459310a7103d4952245eedc7ed5",
+        "size_in_bytes": 22,
+        "sha256_in_prefix": "0a92bc207fdd09403083db6abfbce6f45c5b0459310a7103d4952245eedc7ed5"
+      },
+      {
+        "_path": "Scripts/email_validator-script.py",
+        "path_type": "hardlink",
+        "sha256": "6e45e5ff1068d88c52c52fb2017ef1c635fed7351edf50c29205b46e5fca9a08",
+        "size_in_bytes": 218,
+        "sha256_in_prefix": "6e45e5ff1068d88c52c52fb2017ef1c635fed7351edf50c29205b46e5fca9a08"
+      },
+      {
+        "_path": "Scripts/email_validator.exe",
+        "path_type": "hardlink",
+        "sha256": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059",
+        "size_in_bytes": 54032,
+        "sha256_in_prefix": "f24d102084620e54fe68d07f6e9169118b283f8d33d0c8f4b974c2e05a306059"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\email-validator-2.3.0-py312haa95532_0",
+    "type": 1
+  }
+}

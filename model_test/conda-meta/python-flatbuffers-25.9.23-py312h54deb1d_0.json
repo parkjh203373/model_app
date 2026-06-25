@@ -1,0 +1,249 @@
+{
+  "name": "python-flatbuffers",
+  "version": "25.9.23",
+  "build": "py312h54deb1d_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "python-flatbuffers-25.9.23-py312h54deb1d_0.conda",
+  "md5": "6ffd3b550aa6a505012878af99644add",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/python-flatbuffers-25.9.23-py312h54deb1d_0.conda",
+  "sha256": "60462b96c6f52eead8371691d90bbfe12584c08894f9c441f7d7ae1aab9d04ca",
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1773259337000,
+  "size": 69812,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\python-flatbuffers-25.9.23-py312h54deb1d_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\python-flatbuffers-25.9.23-py312h54deb1d_0",
+  "files": [
+    "Lib/site-packages/flatbuffers-25.9.23.dist-info/INSTALLER",
+    "Lib/site-packages/flatbuffers-25.9.23.dist-info/METADATA",
+    "Lib/site-packages/flatbuffers-25.9.23.dist-info/RECORD",
+    "Lib/site-packages/flatbuffers-25.9.23.dist-info/REQUESTED",
+    "Lib/site-packages/flatbuffers-25.9.23.dist-info/WHEEL",
+    "Lib/site-packages/flatbuffers-25.9.23.dist-info/direct_url.json",
+    "Lib/site-packages/flatbuffers-25.9.23.dist-info/top_level.txt",
+    "Lib/site-packages/flatbuffers/__init__.py",
+    "Lib/site-packages/flatbuffers/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/_version.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/builder.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/compat.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/encode.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/flexbuffers.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/number_types.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/packer.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/table.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/__pycache__/util.cpython-312.pyc",
+    "Lib/site-packages/flatbuffers/_version.py",
+    "Lib/site-packages/flatbuffers/builder.py",
+    "Lib/site-packages/flatbuffers/compat.py",
+    "Lib/site-packages/flatbuffers/encode.py",
+    "Lib/site-packages/flatbuffers/flexbuffers.py",
+    "Lib/site-packages/flatbuffers/number_types.py",
+    "Lib/site-packages/flatbuffers/packer.py",
+    "Lib/site-packages/flatbuffers/table.py",
+    "Lib/site-packages/flatbuffers/util.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/flatbuffers-25.9.23.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers-25.9.23.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d832eb1587e7132b4c6246000012873d3d8bf7ba3aefc15a106487fd387d8e8d",
+        "size_in_bytes": 1030,
+        "sha256_in_prefix": "d832eb1587e7132b4c6246000012873d3d8bf7ba3aefc15a106487fd387d8e8d"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers-25.9.23.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "1c612e52ac2572addd6d2ead13d02d76f79bae7083740efb1adc7357ecf5d10c",
+        "size_in_bytes": 1933,
+        "sha256_in_prefix": "1c612e52ac2572addd6d2ead13d02d76f79bae7083740efb1adc7357ecf5d10c"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers-25.9.23.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers-25.9.23.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "324d524f9803cc43b98a5e64611122067cf3338ebd9b9b08f0448f97b4d18496",
+        "size_in_bytes": 110,
+        "sha256_in_prefix": "324d524f9803cc43b98a5e64611122067cf3338ebd9b9b08f0448f97b4d18496"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers-25.9.23.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f3df03922849ed45bd980a7b01390053c9e015bc890043606ab421d918519d75",
+        "size_in_bytes": 108,
+        "sha256_in_prefix": "f3df03922849ed45bd980a7b01390053c9e015bc890043606ab421d918519d75"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers-25.9.23.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "5175562c0f32b3a1dea93cfaadf29eb28714aba967f992fc9a1642fdcab90447",
+        "size_in_bytes": 12,
+        "sha256_in_prefix": "5175562c0f32b3a1dea93cfaadf29eb28714aba967f992fc9a1642fdcab90447"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bc966ba9938e4ca74134c6bf89329403a5891bf73f373286a455ce7b5220b62c",
+        "size_in_bytes": 751,
+        "sha256_in_prefix": "bc966ba9938e4ca74134c6bf89329403a5891bf73f373286a455ce7b5220b62c"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a8b33e73683e7ecd5a434a8231ca354a43b9dfcc3648cf00baa1e3cd58041a8",
+        "size_in_bytes": 349,
+        "sha256_in_prefix": "8a8b33e73683e7ecd5a434a8231ca354a43b9dfcc3648cf00baa1e3cd58041a8"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/_version.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "376dea773326e4bb25a15abccac691264069c6fa90c29079f250142988f0c066",
+        "size_in_bytes": 168,
+        "sha256_in_prefix": "376dea773326e4bb25a15abccac691264069c6fa90c29079f250142988f0c066"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/builder.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "af68dfe89b3740c906c87448b4f22f0ce34820ec4f46a20f02b57d4802160cbb",
+        "size_in_bytes": 35378,
+        "sha256_in_prefix": "af68dfe89b3740c906c87448b4f22f0ce34820ec4f46a20f02b57d4802160cbb"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/compat.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "5e194d31d1e72d2177367c66043cb13721c8c7519fdccd2c59fab50eae357434",
+        "size_in_bytes": 2108,
+        "sha256_in_prefix": "5e194d31d1e72d2177367c66043cb13721c8c7519fdccd2c59fab50eae357434"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/encode.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "df3df2ed259001df0b1ec379d598a729593cf2cc5ca61a119e285ab61b945969",
+        "size_in_bytes": 1348,
+        "sha256_in_prefix": "df3df2ed259001df0b1ec379d598a729593cf2cc5ca61a119e285ab61b945969"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/flexbuffers.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a012d96f95b6961899c267543c50d5a6f0ba46fd1cf08076a221b0ef2aafaa8a",
+        "size_in_bytes": 77562,
+        "sha256_in_prefix": "a012d96f95b6961899c267543c50d5a6f0ba46fd1cf08076a221b0ef2aafaa8a"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/number_types.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "9088f04eba425fc8561cc760a323ef46a4e4a95c4526ec0e1079809db414b974",
+        "size_in_bytes": 6037,
+        "sha256_in_prefix": "9088f04eba425fc8561cc760a323ef46a4e4a95c4526ec0e1079809db414b974"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/packer.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "94c9c1d7f050e2a8f736358f950bc9b0e894555b6d8359ef4cbe9ead55fc524f",
+        "size_in_bytes": 1154,
+        "sha256_in_prefix": "94c9c1d7f050e2a8f736358f950bc9b0e894555b6d8359ef4cbe9ead55fc524f"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/table.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "eb70400b93f06ff17c7135fb3184d925d137ac7707374908966cf1cd799036ac",
+        "size_in_bytes": 7576,
+        "sha256_in_prefix": "eb70400b93f06ff17c7135fb3184d925d137ac7707374908966cf1cd799036ac"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/__pycache__/util.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "256be9bc461eb8e422dd6a2f2145b35b7a6930464386213c71f8807e69d77d68",
+        "size_in_bytes": 1539,
+        "sha256_in_prefix": "256be9bc461eb8e422dd6a2f2145b35b7a6930464386213c71f8807e69d77d68"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/_version.py",
+        "path_type": "hardlink",
+        "sha256": "1952fa33fc897e80249437db7d360557bd8b0db214f988115cbe1dd725f7115c",
+        "size_in_bytes": 695,
+        "sha256_in_prefix": "1952fa33fc897e80249437db7d360557bd8b0db214f988115cbe1dd725f7115c"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/builder.py",
+        "path_type": "hardlink",
+        "sha256": "baeb038520caa672cbcfa291e2f7e50bb4fbe1537041ec3d411911bb11994c38",
+        "size_in_bytes": 25048,
+        "sha256_in_prefix": "baeb038520caa672cbcfa291e2f7e50bb4fbe1537041ec3d411911bb11994c38"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/compat.py",
+        "path_type": "hardlink",
+        "sha256": "8a1052a560c248bfaf80b4b266d72ef0b5f7648df0cfd2e1b6a22d6361906608",
+        "size_in_bytes": 2373,
+        "sha256_in_prefix": "8a1052a560c248bfaf80b4b266d72ef0b5f7648df0cfd2e1b6a22d6361906608"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/encode.py",
+        "path_type": "hardlink",
+        "sha256": "d8eaf79a05910242625a0f868186ac0d4e33207a505375b4e9f9888706f3e6e3",
+        "size_in_bytes": 1550,
+        "sha256_in_prefix": "d8eaf79a05910242625a0f868186ac0d4e33207a505375b4e9f9888706f3e6e3"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/flexbuffers.py",
+        "path_type": "hardlink",
+        "sha256": "c85f16af82e8f1625bfa98fd34d6886312f0ce51c7c93ae833488ef1fc83c1b5",
+        "size_in_bytes": 44454,
+        "sha256_in_prefix": "c85f16af82e8f1625bfa98fd34d6886312f0ce51c7c93ae833488ef1fc83c1b5"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/number_types.py",
+        "path_type": "hardlink",
+        "sha256": "8a33b441c262bb19507a0a0139e774bfd9b40ddcd36475b1a5305952acec5870",
+        "size_in_bytes": 3762,
+        "sha256_in_prefix": "8a33b441c262bb19507a0a0139e774bfd9b40ddcd36475b1a5305952acec5870"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/packer.py",
+        "path_type": "hardlink",
+        "sha256": "2cd5b29bc620151a878dc3de1a9618de29c21961fa5e76e440ab403ed14455ab",
+        "size_in_bytes": 1164,
+        "sha256_in_prefix": "2cd5b29bc620151a878dc3de1a9618de29c21961fa5e76e440ab403ed14455ab"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/table.py",
+        "path_type": "hardlink",
+        "sha256": "7226139aafc2cc0b98a5bdca0159e5ef933ce2278285f6f22a77be7451f3c305",
+        "size_in_bytes": 4818,
+        "sha256_in_prefix": "7226139aafc2cc0b98a5bdca0159e5ef933ce2278285f6f22a77be7451f3c305"
+      },
+      {
+        "_path": "Lib/site-packages/flatbuffers/util.py",
+        "path_type": "hardlink",
+        "sha256": "991550d55a07a7430930db514d4195cc02f03784ff0be535e2d31b8fdf69cb60",
+        "size_in_bytes": 1608,
+        "sha256_in_prefix": "991550d55a07a7430930db514d4195cc02f03784ff0be535e2d31b8fdf69cb60"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\python-flatbuffers-25.9.23-py312h54deb1d_0",
+    "type": 1
+  }
+}

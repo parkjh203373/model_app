@@ -1,0 +1,161 @@
+{
+  "name": "namex",
+  "version": "0.1.0",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "namex-0.1.0-py312haa95532_0.conda",
+  "md5": "b7db726aa68e08317f2731cac4b001d4",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/namex-0.1.0-py312haa95532_0.conda",
+  "sha256": "dbd84a049861f12de4646ab659bbfc1c53e7fb1e143019b9d76dc4d87280f0c9",
+  "depends": [
+    "python >=3.12,<3.13.0a0"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1755731528000,
+  "size": 19237,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\namex-0.1.0-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\namex-0.1.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/namex-0.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/namex-0.1.0.dist-info/METADATA",
+    "Lib/site-packages/namex-0.1.0.dist-info/RECORD",
+    "Lib/site-packages/namex-0.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/namex-0.1.0.dist-info/WHEEL",
+    "Lib/site-packages/namex-0.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/namex-0.1.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/namex-0.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/namex/__init__.py",
+    "Lib/site-packages/namex/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/namex/__pycache__/convert.cpython-312.pyc",
+    "Lib/site-packages/namex/__pycache__/export.cpython-312.pyc",
+    "Lib/site-packages/namex/__pycache__/generate.cpython-312.pyc",
+    "Lib/site-packages/namex/convert.py",
+    "Lib/site-packages/namex/export.py",
+    "Lib/site-packages/namex/generate.py"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "61e0c13504170998414a8713f90930b2050b4b0abff07c243d16dca3f6d3a26e",
+        "size_in_bytes": 333,
+        "sha256_in_prefix": "61e0c13504170998414a8713f90930b2050b4b0abff07c243d16dca3f6d3a26e"
+      },
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d270854dee738076c4a095c89af69cfe5886ab440d6d82a9e60da975f741f71c",
+        "size_in_bytes": 1129,
+        "sha256_in_prefix": "d270854dee738076c4a095c89af69cfe5886ab440d6d82a9e60da975f741f71c"
+      },
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "95353a07a7887d8a224094d935cf9fc9a47a0692fa7a14f3537c466319f69fc9"
+      },
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "a764be2b5034cadc03de8851a4dc65595c3f9856351c8c597066f0cbeeb19a9c",
+        "size_in_bytes": 85,
+        "sha256_in_prefix": "a764be2b5034cadc03de8851a4dc65595c3f9856351c8c597066f0cbeeb19a9c"
+      },
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "29aea94ee8d7f78b22d2f7ea626fa513dce47feb17f86c1430ec0d56e3e40a7f",
+        "size_in_bytes": 548,
+        "sha256_in_prefix": "29aea94ee8d7f78b22d2f7ea626fa513dce47feb17f86c1430ec0d56e3e40a7f"
+      },
+      {
+        "_path": "Lib/site-packages/namex-0.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "c234a275f589a02b1b77df8625d98cbc0513606a5147b7255b6eb12b459b3d44",
+        "size_in_bytes": 6,
+        "sha256_in_prefix": "c234a275f589a02b1b77df8625d98cbc0513606a5147b7255b6eb12b459b3d44"
+      },
+      {
+        "_path": "Lib/site-packages/namex/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "fd8cf9248cb7876a17aa48bdf6279135f6a315f5a4ef0250395d3cc1d9e094a6",
+        "size_in_bytes": 121,
+        "sha256_in_prefix": "fd8cf9248cb7876a17aa48bdf6279135f6a315f5a4ef0250395d3cc1d9e094a6"
+      },
+      {
+        "_path": "Lib/site-packages/namex/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "6672d4918e618ee7919f6b0a889fafddaba37d12e94fe07043c7c061a0e9e946",
+        "size_in_bytes": 291,
+        "sha256_in_prefix": "6672d4918e618ee7919f6b0a889fafddaba37d12e94fe07043c7c061a0e9e946"
+      },
+      {
+        "_path": "Lib/site-packages/namex/__pycache__/convert.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "84ca01c81592508ab5e8a5023674b0c018a230b88c105ee4c061f652d442bde0",
+        "size_in_bytes": 3482,
+        "sha256_in_prefix": "84ca01c81592508ab5e8a5023674b0c018a230b88c105ee4c061f652d442bde0"
+      },
+      {
+        "_path": "Lib/site-packages/namex/__pycache__/export.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "695d7ad866748779e994e31e112327a2614bffb01141ad5dd8feffa2130e0184",
+        "size_in_bytes": 2726,
+        "sha256_in_prefix": "695d7ad866748779e994e31e112327a2614bffb01141ad5dd8feffa2130e0184"
+      },
+      {
+        "_path": "Lib/site-packages/namex/__pycache__/generate.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b00013307ce9b1813dc0cf3a81fe6fa3c50c6f5edf51bd208008c7e5ad0097f",
+        "size_in_bytes": 6648,
+        "sha256_in_prefix": "1b00013307ce9b1813dc0cf3a81fe6fa3c50c6f5edf51bd208008c7e5ad0097f"
+      },
+      {
+        "_path": "Lib/site-packages/namex/convert.py",
+        "path_type": "hardlink",
+        "sha256": "646bfb3b4466b4242b7f0cac7d72ce00aa2c72bd38f6b39819f8457a39d071cb",
+        "size_in_bytes": 3039,
+        "sha256_in_prefix": "646bfb3b4466b4242b7f0cac7d72ce00aa2c72bd38f6b39819f8457a39d071cb"
+      },
+      {
+        "_path": "Lib/site-packages/namex/export.py",
+        "path_type": "hardlink",
+        "sha256": "6834dc60a8283d906e6937ab22133d6f59a177f60f95c6aa32cd2299cbafbcfa",
+        "size_in_bytes": 2221,
+        "sha256_in_prefix": "6834dc60a8283d906e6937ab22133d6f59a177f60f95c6aa32cd2299cbafbcfa"
+      },
+      {
+        "_path": "Lib/site-packages/namex/generate.py",
+        "path_type": "hardlink",
+        "sha256": "4d9693b2f87e40cd7507338b3ca4e2a5a8bfd88b73f71ac5ac01882978830e8a",
+        "size_in_bytes": 6036,
+        "sha256_in_prefix": "4d9693b2f87e40cd7507338b3ca4e2a5a8bfd88b73f71ac5ac01882978830e8a"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\namex-0.1.0-py312haa95532_0",
+    "type": 1
+  }
+}

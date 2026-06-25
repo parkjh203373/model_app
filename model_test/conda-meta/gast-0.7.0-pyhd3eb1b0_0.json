@@ -1,0 +1,197 @@
+{
+  "name": "gast",
+  "version": "0.7.0",
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "subdir": "noarch",
+  "fn": "gast-0.7.0-pyhd3eb1b0_0.conda",
+  "md5": "a9f5071ba1da2e1221190da8e2efdb1b",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/gast-0.7.0-pyhd3eb1b0_0.conda",
+  "sha256": "16d5d187f917cf7f325535825ff9597c42344ee4675dbe68ce3aa2c344a08fcd",
+  "depends": [
+    "python"
+  ],
+  "constrains": [],
+  "noarch": "python",
+  "license": "BSD-3-Clause",
+  "package_type": "noarch_python",
+  "timestamp": 1768212408000,
+  "size": 33208,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\gast-0.7.0-pyhd3eb1b0_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\gast-0.7.0-pyhd3eb1b0_0",
+  "files": [
+    "Lib/site-packages/gast-0.7.0.dist-info/INSTALLER",
+    "Lib/site-packages/gast-0.7.0.dist-info/METADATA",
+    "Lib/site-packages/gast-0.7.0.dist-info/RECORD",
+    "Lib/site-packages/gast-0.7.0.dist-info/REQUESTED",
+    "Lib/site-packages/gast-0.7.0.dist-info/WHEEL",
+    "Lib/site-packages/gast-0.7.0.dist-info/direct_url.json",
+    "Lib/site-packages/gast-0.7.0.dist-info/licenses/LICENSE",
+    "Lib/site-packages/gast-0.7.0.dist-info/top_level.txt",
+    "Lib/site-packages/gast/__init__.py",
+    "Lib/site-packages/gast/ast2.py",
+    "Lib/site-packages/gast/ast3.py",
+    "Lib/site-packages/gast/astn.py",
+    "Lib/site-packages/gast/gast.py",
+    "Lib/site-packages/gast/unparser.py",
+    "Lib/site-packages/gast/version.py",
+    "Lib/site-packages/gast/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/gast/__pycache__/ast2.cpython-312.pyc",
+    "Lib/site-packages/gast/__pycache__/ast3.cpython-312.pyc",
+    "Lib/site-packages/gast/__pycache__/astn.cpython-312.pyc",
+    "Lib/site-packages/gast/__pycache__/gast.cpython-312.pyc",
+    "Lib/site-packages/gast/__pycache__/unparser.cpython-312.pyc",
+    "Lib/site-packages/gast/__pycache__/version.cpython-312.pyc"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "ba832aed1cfdf57d9e92cb04570b92339af4caddc4cdff1d54beb644fe87c76a",
+        "size_in_bytes": 1506,
+        "sha256_in_prefix": "ba832aed1cfdf57d9e92cb04570b92339af4caddc4cdff1d54beb644fe87c76a"
+      },
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "03cd6f5cfe0e2a525b29f8ffb8412b5708752f380c7fa6087f43e966bfa884b8",
+        "size_in_bytes": 1446,
+        "sha256_in_prefix": "03cd6f5cfe0e2a525b29f8ffb8412b5708752f380c7fa6087f43e966bfa884b8"
+      },
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b",
+        "size_in_bytes": 91,
+        "sha256_in_prefix": "ff309ddcdd65ebd02bc724dbf2bcc4a0ff53a5b61792a44548d383e4ebb19d3b"
+      },
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "347f6c80014f4e29c9fe41b2fd5d9577b448b77b48e2df4c9e0ebcc281dca1a7",
+        "size_in_bytes": 90,
+        "sha256_in_prefix": "347f6c80014f4e29c9fe41b2fd5d9577b448b77b48e2df4c9e0ebcc281dca1a7"
+      },
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "6a04bbabd9b48bea6bf7c0bd3f3a062e1476b3c403a746448fd69b0d902e148f",
+        "size_in_bytes": 1490,
+        "sha256_in_prefix": "6a04bbabd9b48bea6bf7c0bd3f3a062e1476b3c403a746448fd69b0d902e148f"
+      },
+      {
+        "_path": "site-packages/gast-0.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "3996390ef0cd01fd7bf92301475a573d5ee227222947eeac14080e7c573f573f",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "3996390ef0cd01fd7bf92301475a573d5ee227222947eeac14080e7c573f573f"
+      },
+      {
+        "_path": "site-packages/gast/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a9e6d33f768cf4b39a39e8a568fc5495c3ff3e471ab40b92eff43ab9a2e9b074",
+        "size_in_bytes": 111,
+        "sha256_in_prefix": "a9e6d33f768cf4b39a39e8a568fc5495c3ff3e471ab40b92eff43ab9a2e9b074"
+      },
+      {
+        "_path": "site-packages/gast/ast2.py",
+        "path_type": "hardlink",
+        "sha256": "44ff4e4370ff716992c9fdfaa1609091b636bdf1a131531bb101d799bbeef673",
+        "size_in_bytes": 13446,
+        "sha256_in_prefix": "44ff4e4370ff716992c9fdfaa1609091b636bdf1a131531bb101d799bbeef673"
+      },
+      {
+        "_path": "site-packages/gast/ast3.py",
+        "path_type": "hardlink",
+        "sha256": "5f0241116522896e97af8927aecfe7f04522122bc6ee559d437f73bc2c38828b",
+        "size_in_bytes": 19060,
+        "sha256_in_prefix": "5f0241116522896e97af8927aecfe7f04522122bc6ee559d437f73bc2c38828b"
+      },
+      {
+        "_path": "site-packages/gast/astn.py",
+        "path_type": "hardlink",
+        "sha256": "cca899380a27342ee9a1ddfa5abecbdc8b6bce0f2a30c0da25bd5c70ecdda2f4",
+        "size_in_bytes": 1167,
+        "sha256_in_prefix": "cca899380a27342ee9a1ddfa5abecbdc8b6bce0f2a30c0da25bd5c70ecdda2f4"
+      },
+      {
+        "_path": "site-packages/gast/gast.py",
+        "path_type": "hardlink",
+        "sha256": "ca29e6d0f3223a68d2cb0e6efed78754e7c6f15e2570746682eff15c8aebfa0f",
+        "size_in_bytes": 27709,
+        "sha256_in_prefix": "ca29e6d0f3223a68d2cb0e6efed78754e7c6f15e2570746682eff15c8aebfa0f"
+      },
+      {
+        "_path": "site-packages/gast/unparser.py",
+        "path_type": "hardlink",
+        "sha256": "aaeafe14001e60fcb9874f655bff66b6df09379e86c0fb91010cdb8a5e0febdf",
+        "size_in_bytes": 43121,
+        "sha256_in_prefix": "aaeafe14001e60fcb9874f655bff66b6df09379e86c0fb91010cdb8a5e0febdf"
+      },
+      {
+        "_path": "site-packages/gast/version.py",
+        "path_type": "hardlink",
+        "sha256": "d3d868979a2f2fa02b20b248259f8c8ac7273a329ae918da1139ad7602695b67",
+        "size_in_bytes": 22,
+        "sha256_in_prefix": "d3d868979a2f2fa02b20b248259f8c8ac7273a329ae918da1139ad7602695b67"
+      },
+      {
+        "_path": "Lib/site-packages/gast/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 297
+      },
+      {
+        "_path": "Lib/site-packages/gast/__pycache__/ast2.cpython-312.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 22364
+      },
+      {
+        "_path": "Lib/site-packages/gast/__pycache__/ast3.cpython-312.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 32000
+      },
+      {
+        "_path": "Lib/site-packages/gast/__pycache__/astn.cpython-312.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 1996
+      },
+      {
+        "_path": "Lib/site-packages/gast/__pycache__/gast.cpython-312.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 23321
+      },
+      {
+        "_path": "Lib/site-packages/gast/__pycache__/unparser.cpython-312.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 71018
+      },
+      {
+        "_path": "Lib/site-packages/gast/__pycache__/version.cpython-312.pyc",
+        "path_type": "pyc_file",
+        "size_in_bytes": 156
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\gast-0.7.0-pyhd3eb1b0_0",
+    "type": 1
+  }
+}

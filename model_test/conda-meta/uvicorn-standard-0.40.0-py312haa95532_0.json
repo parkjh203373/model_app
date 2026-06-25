@@ -1,0 +1,38 @@
+{
+  "name": "uvicorn-standard",
+  "version": "0.40.0",
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "uvicorn-standard-0.40.0-py312haa95532_0.conda",
+  "md5": "8950608b1e6fc6b507be19d3672f869f",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/uvicorn-standard-0.40.0-py312haa95532_0.conda",
+  "sha256": "5ce9ae20984b5ac49a4843367f28d6d591f86102ccf1433e248ae22df2f7ec0a",
+  "depends": [
+    "colorama >=0.4",
+    "httptools >=0.6.3",
+    "python >=3.12,<3.13.0a0",
+    "python-dotenv >=0.13",
+    "pyyaml >=5.1",
+    "uvicorn 0.40.0 py312haa95532_0",
+    "watchfiles >=0.13",
+    "websockets >=10.4"
+  ],
+  "constrains": [],
+  "license": "BSD-3-Clause",
+  "timestamp": 1768226574000,
+  "size": 39537,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\uvicorn-standard-0.40.0-py312haa95532_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\uvicorn-standard-0.40.0-py312haa95532_0",
+  "files": [],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": []
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\uvicorn-standard-0.40.0-py312haa95532_0",
+    "type": 1
+  }
+}

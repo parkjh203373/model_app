@@ -1,0 +1,174 @@
+{
+  "name": "ml_dtypes",
+  "version": "0.5.4",
+  "build": "py312h42c1672_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "subdir": "win-64",
+  "fn": "ml_dtypes-0.5.4-py312h42c1672_0.conda",
+  "md5": "1c527883df46bc9069eea178401b5840",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/ml_dtypes-0.5.4-py312h42c1672_0.conda",
+  "sha256": "e3911ebeb9fce21a3df6a6dcf7f9fba56c376bf2b13901e559c6b205a0d2c6d1",
+  "depends": [
+    "numpy >=1.21,<3",
+    "numpy >=1.26.0",
+    "python >=3.12,<3.13.0a0",
+    "ucrt >=10.0.20348.0",
+    "vc >=14.2,<15",
+    "vc14_runtime >=14.29.30133"
+  ],
+  "constrains": [],
+  "license": "Apache-2.0",
+  "timestamp": 1763481089000,
+  "size": 200380,
+  "_requested_specs": [],
+  "package_tarball_full_path": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\ml_dtypes-0.5.4-py312h42c1672_0.conda",
+  "extracted_package_dir": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\ml_dtypes-0.5.4-py312h42c1672_0",
+  "files": [
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/INSTALLER",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/METADATA",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/RECORD",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/REQUESTED",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/WHEEL",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/direct_url.json",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/licenses/LICENSE",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/licenses/LICENSE.eigen",
+    "Lib/site-packages/ml_dtypes-0.5.4.dist-info/top_level.txt",
+    "Lib/site-packages/ml_dtypes/__init__.py",
+    "Lib/site-packages/ml_dtypes/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/ml_dtypes/__pycache__/_finfo.cpython-312.pyc",
+    "Lib/site-packages/ml_dtypes/__pycache__/_iinfo.cpython-312.pyc",
+    "Lib/site-packages/ml_dtypes/_finfo.py",
+    "Lib/site-packages/ml_dtypes/_iinfo.py",
+    "Lib/site-packages/ml_dtypes/_ml_dtypes_ext.cp312-win_amd64.pyd",
+    "Lib/site-packages/ml_dtypes/py.typed"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5,
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9ab61bf467463ee4d73ef173fc6c56a7f9ff598293ec3a589521aba0bd0e48b5",
+        "size_in_bytes": 9176,
+        "sha256_in_prefix": "9ab61bf467463ee4d73ef173fc6c56a7f9ff598293ec3a589521aba0bd0e48b5"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9dac1d81f5a157a14115ddc2bcc372508b8e9e7a840a971cebb7d52d1bda5a28",
+        "size_in_bytes": 1353,
+        "sha256_in_prefix": "9dac1d81f5a157a14115ddc2bcc372508b8e9e7a840a971cebb7d52d1bda5a28"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f143fdc7da6e588d0fd55fddecada831306a7de2cd9b6d424f367f3edaf43575",
+        "size_in_bytes": 101,
+        "sha256_in_prefix": "f143fdc7da6e588d0fd55fddecada831306a7de2cd9b6d424f367f3edaf43575"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f5c16bf7b994e00644d44aa4da4394eec81d49eadd5f27c5e94540fb8d817545",
+        "size_in_bytes": 87,
+        "sha256_in_prefix": "f5c16bf7b994e00644d44aa4da4394eec81d49eadd5f27c5e94540fb8d817545"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/licenses/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358,
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/licenses/LICENSE.eigen",
+        "path_type": "hardlink",
+        "sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+        "size_in_bytes": 16726,
+        "sha256_in_prefix": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes-0.5.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "99e79e3643352cb993539abfd2cb05b36d40ff8d95028112db89ed0ab3ea012c",
+        "size_in_bytes": 10,
+        "sha256_in_prefix": "99e79e3643352cb993539abfd2cb05b36d40ff8d95028112db89ed0ab3ea012c"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "85bc3f96fb66cb933919cde479df3219caab3f5d8f6b757cdd9431eeb03745e8",
+        "size_in_bytes": 2357,
+        "sha256_in_prefix": "85bc3f96fb66cb933919cde479df3219caab3f5d8f6b757cdd9431eeb03745e8"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/__pycache__/__init__.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a057b5ee98e7ac729f4c06ba7e117c457a4e33421c4951c89b0c781c4fa56ebc",
+        "size_in_bytes": 1962,
+        "sha256_in_prefix": "a057b5ee98e7ac729f4c06ba7e117c457a4e33421c4951c89b0c781c4fa56ebc"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/__pycache__/_finfo.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "a650a4c6fd14add43789a11f709e6f0fe93fedfbc786b31144c8dbdcc425c902",
+        "size_in_bytes": 31619,
+        "sha256_in_prefix": "a650a4c6fd14add43789a11f709e6f0fe93fedfbc786b31144c8dbdcc425c902"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/__pycache__/_iinfo.cpython-312.pyc",
+        "path_type": "hardlink",
+        "sha256": "f790a57aa75f7337073a80820c8d3be4f6463c8fc4beaca7a6cd4de08f84e111",
+        "size_in_bytes": 2482,
+        "sha256_in_prefix": "f790a57aa75f7337073a80820c8d3be4f6463c8fc4beaca7a6cd4de08f84e111"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/_finfo.py",
+        "path_type": "hardlink",
+        "sha256": "e53a9b7bce71d7fc121e26b1ac2cad3d4196fabe5ff4eab755c2fd78aabb5608",
+        "size_in_bytes": 22905,
+        "sha256_in_prefix": "e53a9b7bce71d7fc121e26b1ac2cad3d4196fabe5ff4eab755c2fd78aabb5608"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/_iinfo.py",
+        "path_type": "hardlink",
+        "sha256": "188b001e9bf3287f1077aa6ec3c01f687446f2108c49b89a91a1efd1f191f563",
+        "size_in_bytes": 2027,
+        "sha256_in_prefix": "188b001e9bf3287f1077aa6ec3c01f687446f2108c49b89a91a1efd1f191f563"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/_ml_dtypes_ext.cp312-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "72e82bceb29fe1e2ff106bad4e0a435747fe6fcde9df0de13b4efbd0638ec48d",
+        "size_in_bytes": 829256,
+        "sha256_in_prefix": "72e82bceb29fe1e2ff106bad4e0a435747fe6fcde9df0de13b4efbd0638ec48d"
+      },
+      {
+        "_path": "Lib/site-packages/ml_dtypes/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0,
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ]
+  },
+  "link": {
+    "source": "C:\\Users\\KOSMO\\miniconda3\\pkgs\\ml_dtypes-0.5.4-py312h42c1672_0",
+    "type": 1
+  }
+}

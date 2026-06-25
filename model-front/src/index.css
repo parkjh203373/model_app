@@ -1,0 +1,417 @@
+:root {
+  /* Toss Color Palette */
+  --toss-blue: #3182f6;
+  --toss-blue-hover: #1b64da;
+  --toss-blue-light: rgba(49, 130, 246, 0.08);
+  --toss-bg: #f2f4f6;
+  --toss-card: #ffffff;
+  --toss-border: #e5e8eb;
+  --toss-text-primary: #191f28;
+  --toss-text-secondary: #4e5968;
+  --toss-text-muted: #8b95a1;
+  --toss-success: #2e7d32;
+  --toss-warning: #f39c12;
+  --toss-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px 0px;
+  --toss-shadow-deep: rgba(0, 0, 0, 0.06) 0px 12px 32px 0px;
+
+  /* Typography */
+  --sans: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+  
+  font-family: var(--sans);
+  background-color: var(--toss-bg);
+  color: var(--toss-text-primary);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--toss-bg);
+  min-height: 100vh;
+}
+
+/* Responsive Main Wrapper */
+#root {
+  width: 100%;
+  max-width: 1040px; /* Expands to desktop size */
+  min-height: 100vh;
+  background-color: var(--toss-card);
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.04);
+  overflow-x: hidden;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 1040px) {
+  #root {
+    box-shadow: none;
+  }
+}
+
+/* Common Layout and Elements */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--toss-text-primary);
+  margin: 0;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+  color: var(--toss-text-secondary);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--toss-blue);
+  text-decoration: none;
+}
+
+/* Typography Extensions */
+.toss-title {
+  font-size: 26px;
+  line-height: 1.4;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+}
+
+.toss-subtitle {
+  font-size: 15px;
+  color: var(--toss-text-secondary);
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .toss-title {
+    font-size: 36px;
+  }
+  .toss-subtitle {
+    font-size: 17px;
+  }
+}
+
+/* Card layout */
+.toss-card {
+  background: var(--toss-card);
+  border-radius: 24px;
+  padding: 24px;
+  margin: 16px;
+  box-shadow: var(--toss-shadow);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.toss-card:active {
+  transform: scale(0.995);
+}
+
+@media (min-width: 768px) {
+  .toss-card {
+    padding: 32px;
+    box-shadow: var(--toss-shadow-deep);
+  }
+}
+
+/* Custom Navigation Header */
+.toss-header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  z-index: 100;
+  border-bottom: 1px solid var(--toss-border);
+  display: flex;
+  flex-direction: column;
+}
+
+.toss-header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.toss-logo {
+  font-size: 22px;
+  font-weight: 900;
+  color: var(--toss-blue);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  letter-spacing: -0.5px;
+}
+
+.toss-nav-tabs {
+  display: flex;
+  padding: 0 16px;
+  gap: 8px;
+}
+
+.toss-nav-tab {
+  flex: 1;
+  text-align: center;
+  padding: 14px 0;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--toss-text-muted);
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .toss-nav-tabs {
+    justify-content: flex-start;
+    padding: 0 24px;
+    gap: 24px;
+  }
+  .toss-nav-tab {
+    flex: none;
+    padding: 14px 16px;
+    font-size: 16px;
+  }
+}
+
+.toss-nav-tab.active {
+  color: var(--toss-blue);
+  border-bottom: 3px solid var(--toss-blue);
+  font-weight: 700;
+}
+
+/* Toss Button Styles */
+.toss-button {
+  width: 100%;
+  background-color: var(--toss-blue);
+  color: #ffffff;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.toss-button:hover {
+  background-color: var(--toss-blue-hover);
+}
+
+.toss-button:active {
+  transform: scale(0.97);
+}
+
+.toss-button:disabled {
+  background-color: var(--toss-border);
+  color: var(--toss-text-muted);
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Form Styling */
+.toss-form-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.toss-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--toss-text-secondary);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.toss-input {
+  width: 100%;
+  background-color: #f9fafb;
+  border: 1px solid var(--toss-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 15px;
+  color: var(--toss-text-primary);
+  font-family: inherit;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.toss-input:focus {
+  background-color: #ffffff;
+  border-color: var(--toss-blue);
+  box-shadow: 0 0 0 3px rgba(49, 130, 246, 0.15);
+}
+
+/* Toss Chips for Single Select */
+.toss-chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.toss-chip {
+  background-color: #f2f4f6;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--toss-text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toss-chip:hover {
+  background-color: #e5e8eb;
+}
+
+.toss-chip.active {
+  background-color: var(--toss-blue-light);
+  color: var(--toss-blue);
+  border-color: var(--toss-blue);
+}
+
+/* Prediction Result Component */
+.toss-result-card {
+  margin-top: 24px;
+  background-color: var(--toss-blue-light);
+  border: 1px solid rgba(49, 130, 246, 0.2);
+  border-radius: 18px;
+  padding: 24px;
+  animation: slideUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.toss-result-header {
+  font-size: 13px;
+  color: var(--toss-blue);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+}
+
+.toss-result-value {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--toss-text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Responsive Grid and Split Utilities */
+.toss-responsive-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.toss-split-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .toss-responsive-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 0 24px;
+  }
+
+  .toss-split-layout {
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    gap: 24px;
+  }
+
+  .toss-split-left {
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .toss-split-right {
+    flex: 1;
+  }
+  
+  .toss-split-layout .toss-card {
+    margin: 0;
+  }
+}
+
+/* Spinner / Loading indicator */
+.toss-spinner {
+  width: 22px;
+  height: 22px;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  border-top-color: #ffffff;
+  animation: spin 0.8s linear infinite;
+}
+
+/* Animations */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Helper styles */
+.toss-divider {
+  height: 8px;
+  background-color: var(--toss-bg);
+  border: none;
+  margin: 16px 0;
+}
+
+@media (min-width: 768px) {
+  .toss-divider {
+    height: 1px;
+    background-color: var(--toss-border);
+    margin: 32px 24px;
+  }
+}
+
+.toss-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #e8f3ff;
+  color: var(--toss-blue);
+}
+
+
