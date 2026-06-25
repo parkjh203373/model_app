@@ -73,7 +73,7 @@ function Main_contents(){
             <div className="toss-card" style={{ margin: "24px 16px 16px 16px", padding: "20px", backgroundColor: "#f9fafb", border: "none", display: "flex", gap: "14px", alignItems: "center" }}>
                 <span style={{ fontSize: "24px" }}>💡</span>
                 <p style={{ fontSize: "13px", color: "#4e5968", textAlign: "left" }}>
-                    이 웹사이트는 반응형으로 구축되어 모바일뿐만 아니라 데스크톱 환경에서도 쾌적하게 사용하실 수 있습니다. 상단 탭을 눌러 원하는 AI 분석 폼을 사용해보세요!
+                    이 웹사이트는 반응형으로 구축되어 모바일뿐만 아니라 데스크톱 환경에서도 쾌적하게 사용하실 수 있습니다. 상단 탭을 눌러 원하는 AI 분석 폼을 사용해보세요.
                 </p>
             </div>
         </div>
